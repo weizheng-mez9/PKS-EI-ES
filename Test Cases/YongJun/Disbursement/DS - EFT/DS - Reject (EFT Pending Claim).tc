@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DS - Reject (EFT Pending Claim)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>feb9a0c8-d241-44ed-939b-fd8d76a70226</testCaseGuid>
+</TestCaseEntity>
