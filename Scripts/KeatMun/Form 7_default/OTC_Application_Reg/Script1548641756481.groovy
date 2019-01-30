@@ -21,7 +21,7 @@ WebUI.delay(3)
 
 WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/1.username'), 'faizal.hamid@perkeso.gov.my')
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.setEncryptedText(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/2.password'), 'CQqwFZlbeC8=')
 
