@@ -39,7 +39,7 @@ WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERK
 
 WebUI.delay(2)
 
-GlobalVariable.IC = '950000140036'
+GlobalVariable.IC = "950000140033"
 
 WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/6.No. Kad Pengenalan'), GlobalVariable.IC)
 
@@ -49,13 +49,13 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/7.button_Semak'))
 
-WebUI.delay(4)
-
-WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/8. Nama Majikan Dropdown'))
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/8. LOE emp'), 'mon')
 
 WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/8. MONSOON MOTEL'))
+
+WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/8. LOE emp'), 'MONSOON MOTEL')
 
 WebUI.delay(2)
 
