@@ -13,19 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('All TC/KeatMun/OTC_Submit Form 7_End to End'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KeatMun/OTC_Submit Form 7_End to End - Cheque'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/KinJun/2.0 Check Status/Check Status - Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/2.0 Check Status/Check Status - Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/KinJun/3.0 JSA Application/EIO Internal Login - JSA Application - Approve'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/3.0 JSA Application/EIO Internal Login - JSA Application - Approve'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/KinJun/2.0 Check Status/Check Status - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/2.0 Check Status/Check Status - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Yuki/Approve ERA/End to End Flow'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Approve ERA/End to End Flow'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/KinJun/2.0 Check Status/Check Status - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/2.0 Check Status/Check Status - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/KinJun/4.2 ERA Claim/SEIO Internal Login - ERA Claim - Approve'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/4.2 ERA Claim/SEIO Internal Login - ERA Claim - Approve'), [:], FailureHandling.STOP_ON_FAILURE)
 

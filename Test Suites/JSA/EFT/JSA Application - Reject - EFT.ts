@@ -14,18 +14,18 @@
       <guid>5d2f8908-e1f5-4eff-9ef0-cde615fee0a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All TC/KinJun/1.0 Submit Form 7/1.0 - Fillup Form7 - EFT</testCaseId>
+      <testCaseId>Test Cases/All TC/Unarranged/KinJun/1.0 Submit Form 7/1.0 - Fillup Form7 - EFT</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1aa5c984-9d3d-4ca2-a924-280aa4871e42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All TC/KinJun/3.0 JSA Application/EIO Internal Login - JSA Application - Reject</testCaseId>
+      <testCaseId>Test Cases/All TC/Unarranged/KinJun/3.0 JSA Application/EIO Internal Login - JSA Application - Reject</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4ea977d6-4e87-4271-aa80-f5319fbe95bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All TC/KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Reject</testCaseId>
+      <testCaseId>Test Cases/All TC/Unarranged/KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Reject</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

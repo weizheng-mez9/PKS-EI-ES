@@ -14,30 +14,30 @@
       <guid>c6626aa0-806c-47a7-87cf-37cdd90a84a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All TC/KinJun/1.0 Submit Form 7/2.0 - Fillup Form7 - Cheque</testCaseId>
+      <testCaseId>Test Cases/All TC/Unarranged/KinJun/1.0 Submit Form 7/2.0 - Fillup Form7 - Cheque</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>419ca9a0-d3c4-4bd4-95ee-042f10a5f223</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All TC/KinJun/3.1 RIA Application/EIO Internal Login - RIA Application - Approve</testCaseId>
+      <testCaseId>Test Cases/All TC/Unarranged/KinJun/3.1 RIA Application/EIO Internal Login - RIA Application - Approve</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9d906574-9f38-40a1-b3a8-21666ee7db32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All TC/KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve</testCaseId>
+      <testCaseId>Test Cases/All TC/Unarranged/KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7c2610b3-6990-48cf-883d-9309deeea690</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All TC/KinJun/2.0 Check Status/Check Status - Approval ID</testCaseId>
+      <testCaseId>Test Cases/All TC/Unarranged/KinJun/2.0 Check Status/Check Status - Approval ID</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>85247766-f722-464c-87fe-00aa3d7f80c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All TC/KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject</testCaseId>
+      <testCaseId>Test Cases/All TC/Unarranged/KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
