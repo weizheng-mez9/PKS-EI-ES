@@ -15,23 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/F1. Tidak_bankrupt'))
+WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/F1. Bankrup_yes'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/F2. Bank Name'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/F2. AFFIN BANK BERHAD'))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/F3. Nombor akaun bank'), '1234567890')
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/F4. Halaman Seterusnya'))
+WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/F2. Next_Page_AfterBankInfo'))
 
 WebUI.delay(5)
 
@@ -79,7 +67,7 @@ WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G
 WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/i1.--Sila Pilih--_singleFil'), 
-    GlobalVariable.TextFilePathCommon+ "\\UploadDoc.txt")
+    GlobalVariable.TextFilePathCommon + '\\UploadDoc.txt')
 
 WebUI.delay(3)
 
@@ -100,7 +88,7 @@ WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G
 WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/i1.--Sila Pilih--_singleFil'), 
-    GlobalVariable.TextFilePathCommon+ "\\UploadDoc.txt")
+    GlobalVariable.TextFilePathCommon + '\\UploadDoc.txt')
 
 WebUI.delay(3)
 
@@ -121,7 +109,7 @@ WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G
 WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/i1.--Sila Pilih--_singleFil'), 
-    GlobalVariable.TextFilePathCommon+ "\\UploadDoc.txt")
+    GlobalVariable.TextFilePathCommon + '\\UploadDoc.txt')
 
 WebUI.delay(3)
 
@@ -142,7 +130,7 @@ WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G
 WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/i1.--Sila Pilih--_singleFil'), 
-    GlobalVariable.TextFilePathCommon+ "\\UploadDoc.txt")
+    GlobalVariable.TextFilePathCommon + '\\UploadDoc.txt')
 
 WebUI.delay(3)
 

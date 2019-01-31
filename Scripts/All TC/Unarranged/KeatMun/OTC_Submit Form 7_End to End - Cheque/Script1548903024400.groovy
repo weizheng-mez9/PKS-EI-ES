@@ -23,5 +23,6 @@ WebUI.callTestCase(findTestCase('All TC/Unarranged/KeatMun/Form 7_default/OTC_Su
 
 WebUI.callTestCase(findTestCase('All TC/Unarranged/KeatMun/Form 7_default/OTC_Submit Form 7_Section D-E'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H - EFT'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H - Cheque'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
