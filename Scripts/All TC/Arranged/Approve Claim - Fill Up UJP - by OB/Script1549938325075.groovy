@@ -13,23 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KeatMun/OTC_Submit Form 7_End to End - Cheque'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://10.20.24.188/eisportal/insured/login')
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/2.0 Check Status/Check Status - Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Kenny/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/3.0 JSA Application/EIO Internal Login - JSA Application - Approve'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Kenny/OB Login/Email Address'), GlobalVariable.IC)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/2.0 Check Status/Check Status - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Kenny/Getter Password'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Kenny/OB Login/Password'), GlobalVariable.Password)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Kenny/OB Login/Login Buton'))
-
-WebUI.delay(3)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Compiled/OB Fills UJP Info'), [:], FailureHandling.STOP_ON_FAILURE)
 

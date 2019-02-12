@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Kenny/OB Login Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Default/ES/OB Login Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Kenny/OB Fill UJP Info/1 - Maklumat Asas/Kemaskini Profile'))
 
