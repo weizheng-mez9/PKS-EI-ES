@@ -13,31 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.navigateToUrl(GlobalVariable.Public_Login)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Common/Internal Email Finder'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Common/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Yuki/Approval ERA/OTC Login/Email'), GlobalVariable.InternalEmail)
 
-WebUI.setText(findTestObject('Yuki/Approval ERA/IP Login/IP Login IC'), GlobalVariable.IC)
+WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Common/Getter Password'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('Yuki/Approval ERA/OTC Login/Password'), 'CQqwFZlbeC8=')
 
-WebUI.setText(findTestObject('Yuki/Approval ERA/IP Login/IP Password'), GlobalVariable.Password)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Yuki/Approval ERA/IP Login/Login'))
-
-WebUI.delay(3)
-
-WebUI.mouseOver(findTestObject('Yuki/Approval ERA/IP Setuju ERA/Notis Pilihan Tab'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Yuki/Approval ERA/IP Setuju ERA/EBSA'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Yuki/Approval ERA/IP Setuju ERA/Setuju Button'))
+WebUI.click(findTestObject('Yuki/Approval ERA/OTC Login/Login Button'))
 

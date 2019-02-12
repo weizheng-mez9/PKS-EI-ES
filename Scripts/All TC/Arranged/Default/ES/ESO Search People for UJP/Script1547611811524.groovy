@@ -15,11 +15,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Yuki/Approval ERA/Search People/PENYENARAIAN ORANG BERINSURANS'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Yuki/Approval ERA/Search People/Kategori Carian'))
 
 WebUI.click(findTestObject('Yuki/Approval ERA/Search People/Kategori Carian - MyKAD'))
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Common/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Common/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Yuki/Approval ERA/Search People/ID'), GlobalVariable.IC)
 
@@ -27,27 +29,9 @@ WebUI.click(findTestObject('Yuki/Approval ERA/Search People/Search Button'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Yuki/Approval ERA/Claim Process/Semak'))
+WebUI.click(findTestObject('Yuki/Approval ERA/Search People/a_HAZIMAH BINTI HUSSAIN'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Yuki/Approval ERA/Claim Process/ERA'), 'ERA')
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Yuki/Approval ERA/Claim Process/Semak Claim'))
-
-WebUI.delay(1)
-
-GlobalVariable.ApprovalID = WebUI.getAttribute(findTestObject('Yuki/Approval ERA/Claim Process/Approval ID'), 'value')
-
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Common/Setter Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebUI.selectOptionByValue(findTestObject('Yuki/Approval ERA/Claim Process/Recommendation'), 'P', false)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Yuki/Approval ERA/Claim Process/Hantar Button'))
+WebUI.click(findTestObject('Yuki/Approval ERA/Search People/HAZIMAH BINTI HUSSAIN'))
 

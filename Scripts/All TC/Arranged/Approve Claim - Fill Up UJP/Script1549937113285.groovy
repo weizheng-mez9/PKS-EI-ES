@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/3.0 JSA Application/SE
 
 WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/2.0 Check Status/Check Status - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Approve ERA/End to End Flow'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Compiled/ERA - Fill Up UJP'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/2.0 Check Status/Check Status - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 

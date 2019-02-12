@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Approve ERA/SEIO Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Default/ES/SEIO Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Yuki/Approval ERA/SEIO Approve ERA/Tuntuan'))
 
 WebUI.click(findTestObject('Yuki/Approval ERA/SEIO Approve ERA/Expand Search Field'))
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Common/Getter Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Common/Getter Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -37,11 +37,11 @@ WebUI.click(findTestObject('Yuki/Approval ERA/SEIO Approve ERA/Search Button'))
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Approve ERA/While Loop 1'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Default/ES/While Loop 1'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Approve ERA/While Loop 2'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Default/ES/While Loop 2'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 

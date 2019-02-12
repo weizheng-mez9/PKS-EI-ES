@@ -44,6 +44,6 @@
       <guid>d3dbfe2a-c074-4e48-b23e-4ccc8679a5cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All TC/Unarranged/Yuki/Approve ERA/End to End Flow</testCaseId>
+      <testCaseId>Test Cases/All TC/Arranged/Compiled/ERA - Fill Up UJP</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

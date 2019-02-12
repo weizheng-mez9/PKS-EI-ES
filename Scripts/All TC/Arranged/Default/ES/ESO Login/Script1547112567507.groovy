@@ -13,17 +13,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Common/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Yuki/Approval ERA/OTC Semakan/IC Number'), GlobalVariable.IC)
-
-WebUI.click(findTestObject('Yuki/Approval ERA/OTC Semakan/Semak Button'))
+WebUI.openBrowser('')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Yuki/Approval ERA/OTC Semakan/SIPE'))
+WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
-GlobalVariable.UserName = WebUI.getText(findTestObject('Yuki/Approval ERA/OTC Semakan/SEIO'))
+WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Common/Setter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Common/Internal Email Finder - ESO'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Yuki/Approval ERA/OTC Login/Email'), GlobalVariable.InternalEmail)
+
+WebUI.delay(2)
+
+WebUI.setEncryptedText(findTestObject('Yuki/Approval ERA/OTC Login/Password'), 'CQqwFZlbeC8=')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Yuki/Approval ERA/OTC Login/Login Button'))
 

@@ -13,25 +13,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Yuki/Common/Getter UserName'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
 
-def StrA = GlobalVariable.UserName
+WebUI.delay(3)
 
-def StrB
+WebUI.navigateToUrl(GlobalVariable.Public_Login)
 
-def Counter = 1
+WebUI.callTestCase(findTestCase('All TC/Arranged/Common/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-while (!(StrB.equals(StrA)) && !(Counter > findTestData('User-SEIO').getRowNumbers())) {
-    StrB = findTestData('User-SEIO').getValue(2, Counter)
+WebUI.setText(findTestObject('Yuki/Approval ERA/IP Login/IP Login IC'), GlobalVariable.IC)
 
-    if (StrB.equals(StrA)) {
-        StrEmail = findTestData('User-SEIO').getValue(1, Counter)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Common/Getter Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
-        GlobalVariable.InternalEmail = StrEmail
+WebUI.setText(findTestObject('Yuki/Approval ERA/IP Login/IP Password'), GlobalVariable.Password)
 
-        System.out.println(StrEmail)
-    }
-    
-    Counter++
-}
+WebUI.click(findTestObject('Yuki/Approval ERA/IP Login/Login'))
+
+WebUI.delay(3)
+
+WebUI.mouseOver(findTestObject('Yuki/Approval ERA/IP Setuju ERA/Notis Pilihan Tab'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Yuki/Approval ERA/IP Setuju ERA/EBSA'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Yuki/Approval ERA/IP Setuju ERA/Setuju Button'))
 
