@@ -30,7 +30,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_OTC/Button PENDAFTARAN KES'))
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Kelvin/To-call/Name and IC Generator'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Common/Name and IC Generator'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_OTC/insert mobile number'), '99999999999')
 

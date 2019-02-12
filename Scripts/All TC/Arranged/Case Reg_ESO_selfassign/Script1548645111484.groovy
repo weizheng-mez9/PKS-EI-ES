@@ -30,7 +30,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Button PENDAFTARAN KES'))
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/Kelvin/To-call/Name and IC Generator'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/Common/Name and IC Generator'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Kategori Kes'), '5', true)
 
