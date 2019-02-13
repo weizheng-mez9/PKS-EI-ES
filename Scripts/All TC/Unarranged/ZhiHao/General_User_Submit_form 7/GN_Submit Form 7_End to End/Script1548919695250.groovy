@@ -13,21 +13,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('ZhiHao/General_User_Submit_form 7/Default TC/GN_Application_Reg'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/ZhiHao/General_User_Submit_form 7/Default TC/GN_Application_Reg'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section A'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section A'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section B'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section B'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section C-D'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section C-D'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section E'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section E'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section F'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section F'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section G'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section G'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section H'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/ZhiHao/General_User_Submit_form 7/Default TC/GN_Submit Form 7_Section H'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ZhiHao/OTC_Semakan/OTC_Semakan(By IC)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Unarranged/ZhiHao/OTC_Semakan/OTC_Semakan(By IC)'), [:], FailureHandling.STOP_ON_FAILURE)
 

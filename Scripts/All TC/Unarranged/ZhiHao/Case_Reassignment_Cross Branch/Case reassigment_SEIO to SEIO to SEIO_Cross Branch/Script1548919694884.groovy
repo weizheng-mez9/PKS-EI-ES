@@ -31,12 +31,12 @@ WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassigme
 
 WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassigment_SEIO to SEIO to SEIO_Cross Branch/Page_PERKESO/click_Carian Kes'))
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter_CASE_ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassigment_SEIO to SEIO to SEIO_Cross Branch/Page_PERKESO/input_ID Kes_caseId'), 
     GlobalVariable.CaseID)
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter_GN_IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassigment_SEIO to SEIO to SEIO_Cross Branch/Page_PERKESO/input_No Kad Pengenalan_nric'), 
     GlobalVariable.IC)
@@ -66,7 +66,7 @@ WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassigme
 WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassigment_SEIO to SEIO to SEIO_Cross Branch/Page_PERKESO/click_choose file_button'), 
-    GlobalVariable.TextFilePathCommon +"\\UploadDoc.txt")
+    GlobalVariable.TextFilePathCommon + '\\UploadDoc.txt')
 
 WebUI.delay(2)
 
@@ -97,7 +97,7 @@ WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassigme
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('ZhiHao/OTC_Semakan/OTC_Semakan(by Case ID)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.openBrowser('')
 

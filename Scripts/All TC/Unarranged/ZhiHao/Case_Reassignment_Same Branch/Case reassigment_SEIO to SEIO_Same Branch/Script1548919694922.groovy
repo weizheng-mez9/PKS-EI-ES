@@ -17,11 +17,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
-WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/input_username'), 'jhseio4@perkeso.gov.my')
+WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/input_username'), 
+    'jhseio4@perkeso.gov.my')
 
 WebUI.delay(2)
 
-WebUI.setEncryptedText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/input_password'), 'CQqwFZlbeC8=')
+WebUI.setEncryptedText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/input_password'), 
+    'CQqwFZlbeC8=')
 
 WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/click_login_button'))
 
@@ -29,13 +31,15 @@ WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigmen
 
 WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/click_Carian Kes'))
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter_CASE_ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/input_case id'), GlobalVariable.CaseID)
+WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/input_case id'), 
+    GlobalVariable.CaseID)
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter_GN_IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/input_No Kad Pengenalan'), GlobalVariable.IC)
+WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/input_No Kad Pengenalan'), 
+    GlobalVariable.IC)
 
 WebUI.delay(3)
 
@@ -51,7 +55,7 @@ WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigmen
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def StrA = GlobalVariable.UserName
 
@@ -65,7 +69,8 @@ if (!(StrA == StrB)) {
     WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/input_EIO_staffRadio_2'))
 }
 
-WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/inser_catatan'), 'ok go')
+WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/inser_catatan'), 
+    'ok go')
 
 WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassigment_SEIO to SEIO_Same Branch/Page_PERKESO/click_button_Tugaskan'))
 

@@ -43,7 +43,7 @@ GlobalVariable.IC = '950000140036'
 
 WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/6.No. Kad Pengenalan'), GlobalVariable.IC)
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/Common Activity - Setter/Setter IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.2 Setter/Setter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 

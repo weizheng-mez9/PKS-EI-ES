@@ -112,13 +112,13 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 GlobalVariable.IC = WebUI.getText(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section H/Page_PERKESO/strong_821210105280 (1)'))
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Setter_GN_IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.2 Setter/Setter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-GlobalVariable.password = WebUI.getText(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section H/Page_PERKESO/strong_k76N7BsG (1)'))
+GlobalVariable.Password = WebUI.getText(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section H/Page_PERKESO/strong_k76N7BsG (1)'))
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Setter_GN_PW'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.2 Setter/Setter Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
 GlobalVariable.CaseID = WebUI.getText(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section H/Page_PERKESO/strong_SIPE1119060000038 (1)'))
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Setter_CASE_ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.2 Setter/Setter Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 

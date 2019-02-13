@@ -31,12 +31,12 @@ WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassignme
 
 WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassignment_EIO to EIO_Same Branch/Page_PERKESO/click_Carian Kes'))
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter_CASE_ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassignment_EIO to EIO_Same Branch/Page_PERKESO/input_case id'), 
     GlobalVariable.CaseID)
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter_GN_IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassignment_EIO to EIO_Same Branch/Page_PERKESO/input_No Kad Pengenalan'), 
     GlobalVariable.IC)
@@ -55,7 +55,7 @@ WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Same Branch/Case reassignme
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def StrA = GlobalVariable.UserName
 

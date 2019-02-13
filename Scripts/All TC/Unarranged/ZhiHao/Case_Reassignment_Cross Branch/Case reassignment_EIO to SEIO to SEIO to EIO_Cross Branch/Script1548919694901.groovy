@@ -31,12 +31,12 @@ WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassignm
 
 WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassignment_EIO to SEIO to SEIO to EIO_Cross Branch/Page_PERKESO/click_Carian Kes'))
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter_CASE_ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassignment_EIO to SEIO to SEIO to EIO_Cross Branch/Page_PERKESO/input_case id'), 
     GlobalVariable.CaseID)
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter_GN_IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassignment_EIO to SEIO to SEIO to EIO_Cross Branch/Page_PERKESO/input_No Kad Pengenalan_nric'), 
     GlobalVariable.IC)
@@ -68,7 +68,7 @@ WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassignm
 WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassignment_EIO to SEIO to SEIO to EIO_Cross Branch/Page_PERKESO/click_choose file_button'), 
-    GlobalVariable.TextFilePathCommon +"\\UploadDoc.txt")
+    GlobalVariable.TextFilePathCommon + '\\UploadDoc.txt')
 
 WebUI.delay(2)
 
@@ -121,7 +121,7 @@ WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassignm
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter_CASE_ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassignment_EIO to SEIO to SEIO to EIO_Cross Branch/Page_PERKESO/input_case id(2)'), 
     GlobalVariable.CaseID)

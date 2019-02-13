@@ -23,7 +23,7 @@ WebUI.setEncryptedText(findTestObject('ZhiHao/OTC_Semakan/OTC_Semakan(by Case ID
 
 WebUI.click(findTestObject('ZhiHao/OTC_Semakan/OTC_Semakan(by Case ID)/Page_PERKESO/click_login'))
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Getter_CASE_ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('ZhiHao/OTC_Semakan/OTC_Semakan(by Case ID)/Page_PERKESO/input_ID Kes_caseId'), GlobalVariable.CaseID)
 
@@ -31,5 +31,5 @@ WebUI.click(findTestObject('ZhiHao/OTC_Semakan/OTC_Semakan(by Case ID)/Page_PERK
 
 GlobalVariable.UserName = WebUI.getText(findTestObject('ZhiHao/OTC_Semakan/OTC_Semakan(by Case ID)/Page_PERKESO/td_JHEIO3 (1)'))
 
-WebUI.callTestCase(findTestCase('ZhiHao/common/Setter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.2 Setter/Setter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
 
