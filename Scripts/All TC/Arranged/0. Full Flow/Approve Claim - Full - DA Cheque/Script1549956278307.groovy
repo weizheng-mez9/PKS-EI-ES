@@ -13,19 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/KeatMun/OTC_Submit Form 7_End to End - Cheque'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Compiled/2.2 Check Status/Check Status - Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.2 Check Status/Check Status - Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Compiled/2.31 RIA Application/EIO Internal Login - RIA Application - Approve'), 
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.31 RIA Application/EIO Internal Login - RIA Application - Approve'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Compiled/2.31 RIA Application/SEIO Internal Login - RIA Application - Approve'), 
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.31 RIA Application/SEIO Internal Login - RIA Application - Approve'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Compiled/2.1 Submit Death Report/OTC - Submit Death Report (Full - Cheque)'), 
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.1 Submit Death Report/OTC - Submit Death Report (Full - Cheque)'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Compiled/2.41 DA Claim/SEIO Internal Login - DA Claim - Approve'), [:], 
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.41 DA Claim/SEIO Internal Login - DA Claim - Approve'), [:], 
     FailureHandling.STOP_ON_FAILURE)
 

@@ -13,19 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('All TC/Unarranged/KeatMun/OTC_Submit Form 7_End to End - Cheque'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Compiled/2.2 Check Status/Check Status - Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.2 Check Status/Check Status - Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Compiled/2.3 JSA Application/EIO Internal Login - JSA Application - Approve'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.3 JSA Application/EIO Internal Login - JSA Application - Approve'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Compiled/2.3 JSA Application/SEIO Internal Login - JSA Application - Approve'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.3 JSA Application/SEIO Internal Login - JSA Application - Approve'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Compiled/2.2 Check Status/Check Status - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.2 Check Status/Check Status - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Compiled/ERA - Fill Up UJP'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/ERA - Fill Up UJP'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Compiled/2.2 Check Status/Check Status - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.2 Check Status/Check Status - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('All TC/Unarranged/KinJun/4.2 ERA Claim/SEIO Internal Login - ERA Claim - Approve'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -18,14 +18,14 @@ WebUI.delay(2)
 WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section G/Page_PERKESO/input_Name Waris_G2'))
 
 WebUI.setText(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section G/Page_PERKESO/input_Name Waris_G2'), 
-    'meng')
+    'qwertyuiop')
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section G/Page_PERKESO/click_Kad Pengenalan_G2'))
 
 WebUI.setText(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section G/Page_PERKESO/input_Kad Pengenalan_G2'), 
-    '123456')
+    '111111223333')
 
 WebUI.delay(2)
 
