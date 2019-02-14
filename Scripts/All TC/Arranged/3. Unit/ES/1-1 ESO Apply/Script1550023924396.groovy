@@ -37,7 +37,9 @@ WebUI.setText(findTestObject('Rizky/ESO Apply/Jawatan Terakhir'), '1')
 
 WebUI.setText(findTestObject('Rizky/ESO Apply/Gaji Terakhir'), '1')
 
-WebUI.setText(findTestObject('Rizky/ESO Apply/Ujian Psikometrik'), '1')
+WebUI.click(findTestObject('Rizky/ESO Apply/Ujian Psikometrik -'))
+
+WebUI.click(findTestObject('Rizky/ESO Apply/Ujian Psikometrik - Realistic'))
 
 WebUI.click(findTestObject('Rizky/ESO Apply/Institut'))
 

@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_OTC/Login Butt
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_OTC/Button PENDAFTARAN KES'))
+WebUI.click(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_OTC/a_PENDAFTARAN KES'))
 
 WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/Name and IC Generator'), [:], FailureHandling.STOP_ON_FAILURE)
 

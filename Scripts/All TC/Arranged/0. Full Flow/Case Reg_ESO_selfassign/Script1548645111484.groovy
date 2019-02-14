@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Button PENDAFTARAN KES'))
+WebUI.click(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/a_PENDAFTARAN KES'))
 
 WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/Name and IC Generator'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -44,11 +44,14 @@ WebUI.click(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign
 
 WebUI.setText(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Set Search value'), 'MyKad')
 
-WebUI.sendKeys(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Set Search value - ENTER'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Set Search value - ENTER'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.setText(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Insert IC'), GlobalVariable.ICRand)
 
 WebUI.click(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Search Button'))
+
+WebUI.delay(2)
 
 WebUI.focus(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/To verify record existed'))
 

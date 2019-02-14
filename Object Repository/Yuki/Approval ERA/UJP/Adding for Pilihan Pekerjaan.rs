@@ -4,6 +4,12 @@
    <name>Adding for Pilihan Pekerjaan</name>
    <tag></tag>
    <elementGuidId>248710cb-2acd-4484-9b9d-7150b74548bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;empJpDiv&quot;)/div[@class=&quot;collapse-group noborder nopd nomgbtm&quot;]/div[@class=&quot;greyGroup&quot;]/div[@class=&quot;col-md-12 btnbg text-center&quot;]/a[@id=&quot;saveCertId&quot;]/button[@class=&quot;btn btn-lg blueBtn col-md-2 pull-right&quot;][count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -30,16 +36,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Tambah</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;empJpDiv&quot;)/div[@class=&quot;collapse-group noborder nopd nomgbtm&quot;]/div[@class=&quot;greyGroup&quot;]/div[@class=&quot;col-md-12 btnbg centertext&quot;]/a[@id=&quot;saveCertId&quot;]/button[@class=&quot;btn btn-lg blueBtn col-md-2 pull-right&quot;]</value>
+      <value>id(&quot;empJpDiv&quot;)/div[@class=&quot;collapse-group noborder nopd nomgbtm&quot;]/div[@class=&quot;greyGroup&quot;]/div[@class=&quot;col-md-12 btnbg text-center&quot;]/a[@id=&quot;saveCertId&quot;]/button[@class=&quot;btn btn-lg blueBtn col-md-2 pull-right&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

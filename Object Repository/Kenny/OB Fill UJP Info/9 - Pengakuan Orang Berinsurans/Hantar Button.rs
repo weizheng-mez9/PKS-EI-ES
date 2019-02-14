@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Adding for PKP</name>
+   <name>Hantar Button</name>
    <tag></tag>
-   <elementGuidId>6d7a9576-75fc-4624-851a-c8f5884b0555</elementGuidId>
+   <elementGuidId>4ada8e35-9e00-4ab1-b78c-3029a115e643</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;listEcpDiv&quot;)/div[@class=&quot;col-md-12 btnbg text-center&quot;]/a[@id=&quot;saveCertId&quot;]/button[@class=&quot;btn btn-lg blueBtn col-md-2 pull-right&quot;][count(. | //button[@type = 'button' and (text() = 'Tambah' or . = 'Tambah')]) = count(//button[@type = 'button' and (text() = 'Tambah' or . = 'Tambah')])]</value>
+         <value>//button[@type = 'button' and (text() = 'Hantar' or . = 'Hantar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,62 +31,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-lg blueBtn col-md-2 pull-right</value>
+      <value>btn btn-lg greenBtn col-md-2 pull-right</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tambah</value>
+      <value>Hantar</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;listEcpDiv&quot;)/div[@class=&quot;col-md-12 btnbg text-center&quot;]/a[@id=&quot;saveCertId&quot;]/button[@class=&quot;btn btn-lg blueBtn col-md-2 pull-right&quot;]</value>
+      <value>id(&quot;formId&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;collapse-group noborder nopd nomgbtm&quot;]/div[@class=&quot;col-md-12 btnbg centertext&quot;]/a[@id=&quot;saveAllBtnId&quot;]/button[@class=&quot;btn btn-lg greenBtn col-md-2 pull-right&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//button[@type='button'])[22]</value>
+      <value>(//button[@type='button'])[26]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>(//a[@id='saveCertId']/button)[6]</value>
+      <value>(//a[@id='saveAllBtnId']/button)[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kos'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tarikh'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='--Sila Pilih--'])[75]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catatan Pegawai Perkhidmatan Pekerjaan'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No.'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Aktiviti Pencarian Pekerjaan'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/div[5]/a/button</value>
+      <value>//div[21]/a/button</value>
    </webElementXpaths>
 </WebElementEntity>

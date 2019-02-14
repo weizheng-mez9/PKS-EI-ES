@@ -44,5 +44,7 @@ WebUI.setText(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_CM/Insert IC
 
 WebUI.click(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_CM/Search Button'))
 
+WebUI.delay(2)
+
 WebUI.focus(findTestObject('Kelvin/Portal (10.20.24.198)/Case Reg_CM/To verify record existed'))
 

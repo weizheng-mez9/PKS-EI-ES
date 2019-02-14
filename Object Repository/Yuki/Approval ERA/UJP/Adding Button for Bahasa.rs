@@ -4,6 +4,12 @@
    <name>Adding Button for Bahasa</name>
    <tag></tag>
    <elementGuidId>bccfbf9a-9f69-466a-8a65-0eaf0763daf1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;empSkillDiv&quot;)/div[@class=&quot;collapse-group noborder nopd nomgbtm&quot;]/div[@class=&quot;greyGroup&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-12 btnbg text-center&quot;]/a[@id=&quot;saveCertId&quot;]/button[@class=&quot;btn btn-lg blueBtn col-md-2 pull-right&quot;][count(. | //button[@type = 'button' and (text() = 'Tambah' or . = 'Tambah')]) = count(//button[@type = 'button' and (text() = 'Tambah' or . = 'Tambah')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;empLangDiv&quot;)/div[@class=&quot;collapse-group noborder nopd nomgbtm&quot;]/div[@class=&quot;greyGroup&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-12 btnbg centertext&quot;]/a[@id=&quot;saveCertId&quot;]/button[@class=&quot;btn btn-lg blueBtn col-md-2 pull-right&quot;]</value>
+      <value>id(&quot;empSkillDiv&quot;)/div[@class=&quot;collapse-group noborder nopd nomgbtm&quot;]/div[@class=&quot;greyGroup&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-12 btnbg text-center&quot;]/a[@id=&quot;saveCertId&quot;]/button[@class=&quot;btn btn-lg blueBtn col-md-2 pull-right&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

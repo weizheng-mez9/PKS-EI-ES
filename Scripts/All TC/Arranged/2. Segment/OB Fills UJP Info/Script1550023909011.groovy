@@ -423,8 +423,7 @@ WebUI.click(findTestObject('Kenny/OB Fill UJP Info/7 - Pilihan Pekerjaan dan Tet
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Kenny/OB Fill UJP Info/7 - Pilihan Pekerjaan dan Tetapan Privasi/Anggaran gaji'), 
-    '14000')
+WebUI.setText(findTestObject('Kenny/OB Fill UJP Info/7 - Pilihan Pekerjaan dan Tetapan Privasi/Anggaran gaji'), '14000')
 
 WebUI.delay(2)
 
@@ -561,11 +560,15 @@ WebUI.click(findTestObject('Kenny/OB Fill UJP Info/9 - Pengakuan Orang Berinsura
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Kenny/OB Fill UJP Info/Log Out/Click on IC No.'))
+WebUI.rightClick(findTestObject('Kenny/OB Fill UJP Info/9 - Pengakuan Orang Berinsurans/Hantar Button'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Kenny/OB Fill UJP Info/Log Out/Log Out'))
+not_run: WebUI.click(findTestObject('Kenny/OB Fill UJP Info/Log Out/Click on IC No.'))
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
+
+not_run: WebUI.click(findTestObject('Kenny/OB Fill UJP Info/Log Out/Log Out'))
+
+not_run: WebUI.delay(3)
 
