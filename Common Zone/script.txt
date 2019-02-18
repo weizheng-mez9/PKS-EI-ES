@@ -1,0 +1,5 @@
+open sftp://jbadmin:P%40ssw0rd;fingerprint=ssh-ed25519-sc6ViTg%2Fdwntxh3yXEysT2Y97gIoSS2Vo2%2BrcDR4bd8=@10.20.24.185/apps/tomcat/apache-tomcat-8.5.24/bucket/SIP/201907/ 
+
+get SIPERA00215072019_M2E.txt c:\m2E_Case.txt
+
+exit
