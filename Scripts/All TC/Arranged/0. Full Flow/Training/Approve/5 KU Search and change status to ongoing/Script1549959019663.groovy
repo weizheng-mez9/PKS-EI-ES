@@ -25,5 +25,5 @@ WebUI.click(findTestObject('Rizky/KU Search and change status to ongoing/Kes Bar
 
 WebUI.click(findTestObject('Rizky/KU Search and change status to ongoing/Kes Baru-Sedang Berkursus'))
 
-WebUI.click(findTestObject('Rizky/KU Search and change status to ongoing/Hantar'))
+WebUI.verifyElementClickable(findTestObject('Rizky/KU Search and change status to ongoing/Hantar'))
 

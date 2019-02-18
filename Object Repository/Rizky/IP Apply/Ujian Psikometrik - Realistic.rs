@@ -3,7 +3,7 @@
    <description></description>
    <name>Ujian Psikometrik - Realistic</name>
    <tag></tag>
-   <elementGuidId>60f5cac9-720d-40e4-9ad4-5cb9d84f1821</elementGuidId>
+   <elementGuidId>38d7f63a-f4d1-4293-ab30-461b290b2c7c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

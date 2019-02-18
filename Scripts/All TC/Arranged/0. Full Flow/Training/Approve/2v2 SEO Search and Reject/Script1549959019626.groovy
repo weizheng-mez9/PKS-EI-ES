@@ -32,5 +32,5 @@ WebUI.setText(findTestObject('Rizky/SEO Search and Reject/Jika Pilih Lain Sila N
 WebUI.setText(findTestObject('Rizky/SEO Search and Reject/Catatan Negeri Pegawai Pekerjaan Kanan  Catatan Pegawai Negeri Pekerjaan Kanan'), 
     'abc')
 
-WebUI.rightClick(findTestObject('Rizky/SEO Search and Reject/Hantar'))
+WebUI.verifyElementClickable(findTestObject('Rizky/SEO Search and Reject/Hantar'))
 

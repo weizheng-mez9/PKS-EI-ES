@@ -3,7 +3,7 @@
    <description></description>
    <name>Ujian Psikometrik -</name>
    <tag></tag>
-   <elementGuidId>62e78c80-e368-4602-a6f0-c1f8b555f523</elementGuidId>
+   <elementGuidId>c3ed77a9-f030-4ee3-a4a5-c03cc1360130</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

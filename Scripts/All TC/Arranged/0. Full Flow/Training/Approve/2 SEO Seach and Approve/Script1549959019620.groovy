@@ -30,5 +30,5 @@ WebUI.click(findTestObject('Rizky/SEO Search and Approve/Jenis Pengesyoran-Memer
 WebUI.setText(findTestObject('Rizky/SEO Search and Approve/Catatan Negeri Pegawai Pekerjaan Kanan  Catatan Pegawai Negeri Pekerjaan Kanan'), 
     'abc')
 
-WebUI.rightClick(findTestObject('Rizky/SEO Search and Approve/Hantar'))
+WebUI.verifyElementClickable(findTestObject('Rizky/SEO Search and Approve/Hantar'))
 

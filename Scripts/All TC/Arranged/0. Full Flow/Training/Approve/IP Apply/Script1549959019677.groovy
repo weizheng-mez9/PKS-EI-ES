@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('All TC/Arranged/3. Unit/ES/IP Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Rizky/IP Apply/Permohonan Latihan'))
+WebUI.mouseOver(findTestObject('Rizky/IP Apply/Permohonan Latihan'))
 
 WebUI.click(findTestObject('Rizky/IP Apply/Permohonan Latihan-Latihan'))
 
@@ -25,7 +25,9 @@ WebUI.setText(findTestObject('Rizky/IP Apply/Jawatan Terakhir'), 'a')
 
 WebUI.setText(findTestObject('Rizky/IP Apply/Gaji Terakhir'), '1')
 
-WebUI.setText(findTestObject('Rizky/IP Apply/Ujian Psikometrik'), 'a')
+WebUI.click(findTestObject('Rizky/IP Apply/Ujian Psikometrik -'))
+
+WebUI.click(findTestObject('Rizky/IP Apply/Ujian Psikometrik - Realistic'))
 
 WebUI.click(findTestObject('Rizky/IP Apply/Institut'))
 

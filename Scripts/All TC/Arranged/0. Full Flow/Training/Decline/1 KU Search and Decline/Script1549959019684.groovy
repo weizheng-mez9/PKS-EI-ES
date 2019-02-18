@@ -21,13 +21,13 @@ WebUI.click(findTestObject('Rizky/KU Search and Approve/Tindakan-Kemaskini'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Rizky/KU Search and Approve/Jenis Kelulusan'))
+not_run: WebUI.click(findTestObject('Rizky/KU Search and Approve/Jenis Kelulusan'))
 
 not_run: WebUI.click(findTestObject('Rizky/KU Search and Approve/Jenis Kelulusan-Lulus'))
 
-WebUI.click(findTestObject('Rizky/KU Search and Decline/Jenis Kelulusan-Lain-lain'))
+not_run: WebUI.click(findTestObject('Rizky/KU Search and Decline/Jenis Kelulusan-Lain-lain'))
 
-WebUI.setText(findTestObject('Rizky/KU Search and Approve/Catatan Ketua Unit Vokasional'), 'abcd')
+not_run: WebUI.setText(findTestObject('Rizky/KU Search and Approve/Catatan Ketua Unit Vokasional'), 'abcd')
 
 WebUI.click(findTestObject('Rizky/KU Search and Approve/Kes Baru'))
 
@@ -37,13 +37,19 @@ WebUI.click(findTestObject('Rizky/KU Search and Approve/Tarikh Mula'))
 
 WebUI.click(findTestObject('Rizky/KU Search and Approve/Tarikh Mula-18'))
 
-WebUI.click(findTestObject('Rizky/KU Search and Approve/Tarikh Mula-Done'))
+WebUI.delay(2)
+
+not_run: WebUI.click(findTestObject('Rizky/KU Search and Approve/Tarikh Mula-Done'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Rizky/KU Search and Approve/Tarikh Tamat'))
 
 WebUI.click(findTestObject('Rizky/KU Search and Approve/Tarikh Tamat-19'))
 
-WebUI.click(findTestObject('Rizky/KU Search and Approve/Tarikh Tamat-Done'))
+WebUI.delay(2)
 
-WebUI.rightClick(findTestObject('Rizky/KU Search and Approve/Hantar'))
+not_run: WebUI.click(findTestObject('Rizky/KU Search and Approve/Tarikh Tamat-Done'))
+
+WebUI.verifyElementClickable(findTestObject('Rizky/KU Search and Approve/Hantar'))
 

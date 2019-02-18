@@ -31,5 +31,5 @@ WebUI.setText(findTestObject('Rizky/VO Search and Aprove/Catatan Pegawai Vokasio
 
 WebUI.delay(2)
 
-WebUI.rightClick(findTestObject('Rizky/VO Search and Aprove/Hantar'))
+WebUI.verifyElementClickable(findTestObject('Rizky/VO Search and Aprove/Hantar'))
 

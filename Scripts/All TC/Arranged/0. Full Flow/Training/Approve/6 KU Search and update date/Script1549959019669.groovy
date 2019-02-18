@@ -25,13 +25,13 @@ WebUI.click(findTestObject('Rizky/KU Search and update date/Tarikh Mula'))
 
 WebUI.click(findTestObject('Rizky/KU Search and update date/Tarikh Mula-18'))
 
-WebUI.click(findTestObject('Rizky/KU Search and update date/Tarikh Mula-Done'))
+not_run: WebUI.click(findTestObject('Rizky/KU Search and update date/Tarikh Mula-Done'))
 
 WebUI.click(findTestObject('Rizky/KU Search and update date/Tarikh Tamat'))
 
 WebUI.click(findTestObject('Rizky/KU Search and update date/Tarikh Tamat-19'))
 
-WebUI.click(findTestObject('Rizky/KU Search and update date/Tarikh Tamat-Done'))
+not_run: WebUI.click(findTestObject('Rizky/KU Search and update date/Tarikh Tamat-Done'))
 
-WebUI.click(findTestObject('Rizky/KU Search and update date/Hantar'))
+WebUI.verifyElementClickable(findTestObject('Rizky/KU Search and update date/Hantar'))
 
