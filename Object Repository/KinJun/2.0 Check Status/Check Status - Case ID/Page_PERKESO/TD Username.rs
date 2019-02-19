@@ -4,6 +4,12 @@
    <name>TD Username</name>
    <tag></tag>
    <elementGuidId>d8f0670a-7d03-42bc-aae0-8da9e49dd72c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;applicationStatusTable&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;applicationStatusTable&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[6]</value>
+      <value>id(&quot;applicationStatusTable&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

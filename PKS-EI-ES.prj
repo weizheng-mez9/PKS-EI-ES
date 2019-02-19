@@ -4,7 +4,7 @@
    <name>PKS-EI-ES</name>
    <tag></tag>
    <UUID>eed88436-3c55-4f34-8f0e-fc7f768eaa55</UUID>
-   <migratedVersion>5.7.0</migratedVersion>
+   <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
       <sourceFolderList>
@@ -18,6 +18,9 @@
          </systemFolderConfiguration>
          <systemFolderConfiguration>
             <url>Include/features</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
