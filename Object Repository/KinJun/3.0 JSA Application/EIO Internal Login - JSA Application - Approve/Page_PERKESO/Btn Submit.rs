@@ -3,7 +3,7 @@
    <description></description>
    <name>Btn Submit</name>
    <tag></tag>
-   <elementGuidId>1a8341c4-8744-4a7f-9606-3d06e7a2a49f</elementGuidId>
+   <elementGuidId>526e5b3e-9011-43ea-a8fb-cc4f2b8a3adc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

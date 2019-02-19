@@ -4,6 +4,12 @@
    <name>Input Contribution</name>
    <tag></tag>
    <elementGuidId>72339605-644c-45c7-8cf2-e5782aab36bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'newSalaryAmt_0' and @name = 'assumedContributionInfo[0].newContributionAmt' and @type = 'number']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,14 +24,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>assumedContributionInfo0.newContributionAmt</value>
+      <value>newSalaryAmt_0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>assumedContributionInfo[0].newContributionAmt</value>
+      <value>assumedContributionInfo[0].newSalary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

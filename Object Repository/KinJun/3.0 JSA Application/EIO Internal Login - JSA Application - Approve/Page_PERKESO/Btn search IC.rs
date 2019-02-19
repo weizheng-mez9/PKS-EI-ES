@@ -3,7 +3,7 @@
    <description></description>
    <name>Btn search IC</name>
    <tag></tag>
-   <elementGuidId>33b69e70-f3ad-494a-a420-43823625b1da</elementGuidId>
+   <elementGuidId>11215e03-9a0d-490c-965e-3135626eb9fa</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

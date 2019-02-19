@@ -4,6 +4,12 @@
    <name>Btn Reject</name>
    <tag></tag>
    <elementGuidId>9cf45d54-edb6-45ed-b607-efbe8bbfab90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;rejectCaseBtn&quot;)[count(. | //button[@type = 'button' and (text() = 'Tolak' or . = 'Tolak')]) = count(//button[@type = 'button' and (text() = 'Tolak' or . = 'Tolak')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formId&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;collapse-group noborder nopd nomgbtm&quot;]/div[@class=&quot;greyGroup&quot;]/div[@class=&quot;inputWrap&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/a[1]/button[@class=&quot;btn btn-lg pull-right col-md-6 redBtn&quot;]</value>
+      <value>id(&quot;rejectCaseBtn&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

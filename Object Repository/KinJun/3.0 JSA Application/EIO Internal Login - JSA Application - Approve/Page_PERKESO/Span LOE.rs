@@ -3,7 +3,7 @@
    <description></description>
    <name>Span LOE</name>
    <tag></tag>
-   <elementGuidId>ff7de9d2-72cf-43b4-9a2b-29ec267eb2d0</elementGuidId>
+   <elementGuidId>090b368b-4557-441f-a1b5-89ff3eb0436c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -3,7 +3,7 @@
    <description></description>
    <name>Btn SearchIC</name>
    <tag></tag>
-   <elementGuidId>d016c393-922b-4d52-8abd-f2eaf1c9a325</elementGuidId>
+   <elementGuidId>934d788e-04b7-41ec-ba11-ba94d4507523</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

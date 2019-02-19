@@ -3,7 +3,7 @@
    <description></description>
    <name>Click Search Case</name>
    <tag></tag>
-   <elementGuidId>1cdb6743-d521-4aa6-9277-3949b47e0c45</elementGuidId>
+   <elementGuidId>62a55b9e-58d5-4f18-892a-983e56c0c80e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

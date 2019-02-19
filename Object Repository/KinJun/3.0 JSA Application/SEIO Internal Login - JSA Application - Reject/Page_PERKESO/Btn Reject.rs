@@ -3,7 +3,13 @@
    <description></description>
    <name>Btn Reject</name>
    <tag></tag>
-   <elementGuidId>5c7c2375-58ca-4c01-9af9-fee0cbe644db</elementGuidId>
+   <elementGuidId>a1ce2c76-67fc-4c78-a1d5-327512c66124</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;rejectCaseBtn&quot;)[count(. | //button[@type = 'button' and @id = 'rejectCaseBtn']) = count(//button[@type = 'button' and @id = 'rejectCaseBtn'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,14 +27,21 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>rejectCaseBtn</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-lg pull-right col-md-6 redBtn</value>
+      <value>btn btn-lg redBtn col-md-2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -39,19 +52,19 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formId&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;collapse-group noborder nopd nomgbtm&quot;]/div[@class=&quot;greyGroup&quot;]/div[@class=&quot;inputWrap&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/a[1]/button[@class=&quot;btn btn-lg pull-right col-md-6 redBtn&quot;]</value>
+      <value>id(&quot;rejectCaseBtn&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//button[@type='button'])[3]</value>
+      <value>//button[@id='rejectCaseBtn']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='formId']/div[2]/div[4]/div/div/div/div/div/a/button</value>
+      <value>//div[@id='officerActionDiv']/div/div/a/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,18 +76,24 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hantar Pembayaran'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Padam Semua Pilihan'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[1]/preceding::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lulus'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notis Hadiran'])[1]/preceding::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//a/button</value>
+      <value>//div[4]/div/div/a/button</value>
    </webElementXpaths>
 </WebElementEntity>

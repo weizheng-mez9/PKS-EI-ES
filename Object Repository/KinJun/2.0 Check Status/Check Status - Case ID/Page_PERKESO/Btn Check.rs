@@ -3,7 +3,7 @@
    <description></description>
    <name>Btn Check</name>
    <tag></tag>
-   <elementGuidId>5454e293-0ce2-4324-a367-5a6eacf0e11b</elementGuidId>
+   <elementGuidId>18f8d5f8-c63a-4b55-bb45-930e2d7e46a5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -3,13 +3,7 @@
    <description></description>
    <name>TD Username</name>
    <tag></tag>
-   <elementGuidId>d8f0670a-7d03-42bc-aae0-8da9e49dd72c</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;applicationStatusTable&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>36576d81-4468-4d42-a40c-e8d1a59f3119</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -24,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>JHEIO2</value>
+      <value>JHEIO5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,30 +31,30 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//table[@id='applicationStatusTable']/tbody/tr/td[6]</value>
+      <value>//table[@id='applicationStatusTable']/tbody/tr/td[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kes Baru'])[1]/following::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EIS PLUS'])[1]/following::td[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='GREAT EASTERN GENERAL INSURANCE (MALAYSIA) BERHAD'])[1]/following::td[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pejabat PERKESO Negeri Johor'])[1]/following::td[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paparan dari 1 hingga 1 dari 1 rekod'])[1]/preceding::td[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paparan dari 1 hingga 1 dari 1 rekod'])[1]/preceding::td[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td[6]</value>
+      <value>//td[8]</value>
    </webElementXpaths>
 </WebElementEntity>

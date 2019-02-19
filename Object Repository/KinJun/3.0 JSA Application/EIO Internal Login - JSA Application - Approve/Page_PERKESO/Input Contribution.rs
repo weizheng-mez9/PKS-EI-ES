@@ -3,7 +3,7 @@
    <description></description>
    <name>Input Contribution</name>
    <tag></tag>
-   <elementGuidId>e7b4c0c4-8170-4dca-9912-4d8756bb5559</elementGuidId>
+   <elementGuidId>108199f6-e5cb-4db0-9d39-ddd3ff1136a2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

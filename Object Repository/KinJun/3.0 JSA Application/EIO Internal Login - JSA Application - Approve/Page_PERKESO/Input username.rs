@@ -3,7 +3,7 @@
    <description></description>
    <name>Input username</name>
    <tag></tag>
-   <elementGuidId>be317525-66a8-48ae-8e12-f03b6ebdeba7</elementGuidId>
+   <elementGuidId>b65467b4-7a21-4597-9056-ad78a4542a10</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

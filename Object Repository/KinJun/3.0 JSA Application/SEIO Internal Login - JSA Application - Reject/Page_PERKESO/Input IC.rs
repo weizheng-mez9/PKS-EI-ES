@@ -3,7 +3,7 @@
    <description></description>
    <name>Input IC</name>
    <tag></tag>
-   <elementGuidId>6b941ad2-993c-4cf3-a686-097bc485ffbd</elementGuidId>
+   <elementGuidId>096650e0-c5d7-421b-a116-835849116a65</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

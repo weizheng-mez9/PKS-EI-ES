@@ -3,14 +3,14 @@
    <description></description>
    <name>Click CaseID</name>
    <tag></tag>
-   <elementGuidId>a4fa497a-9cce-44a9-b404-e32faa0d3fab</elementGuidId>
+   <elementGuidId>240eef5e-9181-4dfd-aea7-25e68502fea5</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//table[@id='caseTable']/tbody/tr/td/a</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -3,7 +3,7 @@
    <description></description>
    <name>Click EIO minute</name>
    <tag></tag>
-   <elementGuidId>aeac777b-ba2d-4055-9e1e-3d950da63d42</elementGuidId>
+   <elementGuidId>593cff2e-9afa-4599-bc76-f96dc2e46da3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

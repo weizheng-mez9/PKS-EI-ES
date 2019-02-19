@@ -4,6 +4,12 @@
    <name>Laporan Kematian</name>
    <tag></tag>
    <elementGuidId>4be8aa68-2553-4fc6-bf92-3b947ed8a1d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;bg2&quot;)/nav[1]/div[@class=&quot;container&quot;]/ul[1]/li[4]/a[1]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>/eisportal/user/otc/deathReport/form1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -3,7 +3,7 @@
    <description></description>
    <name>Remarks</name>
    <tag></tag>
-   <elementGuidId>393db7c9-2228-4bae-99bf-89ad5448af57</elementGuidId>
+   <elementGuidId>7aee492e-4abb-4ef2-8d79-f071cf5304f9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

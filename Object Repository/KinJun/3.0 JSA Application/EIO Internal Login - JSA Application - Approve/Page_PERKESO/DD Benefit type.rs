@@ -3,7 +3,7 @@
    <description></description>
    <name>DD Benefit type</name>
    <tag></tag>
-   <elementGuidId>fc956551-9468-4fbd-9d8d-d4fa19e3ebf6</elementGuidId>
+   <elementGuidId>99bb1867-26e3-46d2-9cd2-b32c3912176b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

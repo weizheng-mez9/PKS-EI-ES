@@ -3,7 +3,7 @@
    <description></description>
    <name>Btn Confirm</name>
    <tag></tag>
-   <elementGuidId>cc554513-644c-4361-a328-387533b77684</elementGuidId>
+   <elementGuidId>92584fed-d65e-4cb0-b293-b2b5348602f9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

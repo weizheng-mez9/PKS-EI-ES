@@ -3,7 +3,7 @@
    <description></description>
    <name>Click Workbasket</name>
    <tag></tag>
-   <elementGuidId>1e3f02f6-ec25-4122-beba-59db7d023cb0</elementGuidId>
+   <elementGuidId>551bb0a5-c15e-47a2-a007-3981b1562903</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

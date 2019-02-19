@@ -3,7 +3,7 @@
    <description></description>
    <name>Span Benefit type</name>
    <tag></tag>
-   <elementGuidId>b3ce24f5-98fb-4828-9b28-a5389d3c832a</elementGuidId>
+   <elementGuidId>bc5a873b-be28-465f-a615-85afaf7f5d33</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
