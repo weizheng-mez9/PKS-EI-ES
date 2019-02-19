@@ -19,32 +19,32 @@ WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
 WebUI.callTestCase(findTestCase('While Loop/Internal Email Finder'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Input username'), 
+WebUI.setText(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Input username'), 
     GlobalVariable.InternalEmail)
 
-WebUI.setEncryptedText(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Input password'), 
+WebUI.setEncryptedText(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Input password'), 
     'CQqwFZlbeC8=')
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn Login'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn Login'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click workbasket'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click workbasket'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click SearchCase'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click SearchCase'))
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Input IC'), 
+WebUI.setText(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Input IC'), 
     GlobalVariable.IC)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn searchIC'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn searchIC'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click CaseID'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click CaseID'))
 
 WebUI.delay(3)
 
@@ -52,18 +52,18 @@ WebUI.acceptAlert()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click CQC2'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click CQC2'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn Add Contribution'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn Add Contribution'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Input AdditionalContribution'), 
+WebUI.setText(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Input AdditionalContribution'), 
     '12')
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn Confirm'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn Confirm'))
 
 WebUI.delay(3)
 
@@ -71,18 +71,18 @@ WebUI.acceptAlert()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click CQC'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click CQC'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Tick employer'), 
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Tick employer'), 
     FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn CheckCQC'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn CheckCQC'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn LockCQC'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn LockCQC'))
 
 WebUI.delay(3)
 
@@ -94,13 +94,13 @@ WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn Approve'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Btn Approve'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click username'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Click username'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Log out'))
+WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Approve/Page_PERKESO/Log out'))
 

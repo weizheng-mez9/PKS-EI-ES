@@ -17,69 +17,69 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input LoginID'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input LoginID'), 
     'nadia.harun@perkeso.gov.my')
 
-WebUI.setEncryptedText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input Login Pass'), 
+WebUI.setEncryptedText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input Login Pass'), 
     'CQqwFZlbeC8=')
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Login'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Login'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Laporan Kematian'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Laporan Kematian'))
 
 WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input IP IC'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input IP IC'), 
     GlobalVariable.IC)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Check IC'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Check IC'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DOD'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DOD'), 
     '13/6/2019')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Dob'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Dob'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DependentName'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DependentName'), 
     'hannn')
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DependentIC'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DependentIC'), 
     '98889802323')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Span Submission'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Span Submission'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input Submission'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input Submission'), 
     'pe')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/li_Penyerahan Penuh (2) (1)'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/li_Penyerahan Penuh (2) (1)'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Upload Certificate'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Upload Certificate'))
 
 WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input doc'), 
+WebUI.sendKeys(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input doc'), 
     'C:\\Users\\LENOVO\\Desktop\\1.png')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Certificate'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Certificate'))
 
 WebUI.delay(3)
 
@@ -87,16 +87,16 @@ WebUI.acceptAlert()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Upload IC'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Upload IC'))
 
 WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input doc'), 
+WebUI.sendKeys(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input doc'), 
     'C:\\Users\\LENOVO\\Desktop\\1.png')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn IC'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn IC'))
 
 WebUI.delay(3)
 
@@ -104,16 +104,16 @@ WebUI.acceptAlert()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Upload Relationship'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Upload Relationship'))
 
 WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input doc'), 
+WebUI.sendKeys(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input doc'), 
     'C:\\Users\\LENOVO\\Desktop\\1.png')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Relationship'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Relationship'))
 
 WebUI.delay(3)
 
@@ -121,16 +121,16 @@ WebUI.acceptAlert()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Upload bank'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Upload bank'))
 
 WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input doc'), 
+WebUI.sendKeys(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input doc'), 
     'C:\\Users\\LENOVO\\Desktop\\1.png')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Bank'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Bank'))
 
 WebUI.delay(3)
 
@@ -138,79 +138,79 @@ WebUI.acceptAlert()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Next Page'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Next Page'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input Address'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input Address'), 
     'setapak')
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Span State'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Span State'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/DD State'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/DD State'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Span City'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Span City'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input City'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input City'), 
     'mua')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/DD city'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/DD city'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Span Postcode'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Span Postcode'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input Postcode'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input Postcode'), 
     '841')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/DD Postcode'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/DD Postcode'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DependentTel'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DependentTel'), 
     '987654321')
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DependentEmail'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DependentEmail'), 
     'abcabcabc@yopmail.com')
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Span Bank'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Span Bank'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/DD Bank list'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/DD Bank list'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DependentAcc'), 
+WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Input DependentAcc'), 
     '12346743234')
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Submit'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Btn Submit'))
 
 WebUI.delay(3)
 
-GlobalVariable.EOT = WebUI.getText(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/EOT ID'))
+GlobalVariable.EOT = WebUI.getText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/EOT ID'))
 
 WebUI.callTestCase(findTestCase('Common Activity - Setter/Setter EOT'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Click Username'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Click Username'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Log Out'))
+WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - EFT)/Page_PERKESO/Log Out'))
 
 WebUI.callTestCase(findTestCase('2.0 Check Status/Check Status - EOT ID'), [:], FailureHandling.STOP_ON_FAILURE)
 

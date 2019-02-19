@@ -21,19 +21,19 @@ WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2.0 Check Status/Check Status - EOT ID/Page_PERKESO/Input IC'), 
+WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - EOT ID/Page_PERKESO/Input IC'), 
     GlobalVariable.IC)
 
 WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter EOT'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2.0 Check Status/Check Status - EOT ID/Page_PERKESO/Input EOT'), 
+WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - EOT ID/Page_PERKESO/Input EOT'), 
     GlobalVariable.EOT)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('2.0 Check Status/Check Status - EOT ID/Page_PERKESO/Btn Check'))
+WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - EOT ID/Page_PERKESO/Btn Check'))
 
 WebUI.delay(3)
 

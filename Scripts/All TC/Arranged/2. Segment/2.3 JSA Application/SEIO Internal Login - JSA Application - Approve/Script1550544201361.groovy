@@ -19,32 +19,32 @@ WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
 WebUI.callTestCase(findTestCase('While Loop/Internal Email Finder'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Input Username'), 
+WebUI.setText(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Input Username'), 
     GlobalVariable.InternalEmail)
 
-WebUI.setEncryptedText(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Input Password'), 
+WebUI.setEncryptedText(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Input Password'), 
     'CQqwFZlbeC8=')
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn Login'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn Login'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click Workbasket'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click Workbasket'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click Search Case'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click Search Case'))
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Input IC'), 
+WebUI.setText(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Input IC'), 
     GlobalVariable.IC)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn SearchIC'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn SearchIC'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click CaseID'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click CaseID'))
 
 WebUI.delay(3)
 
@@ -52,18 +52,18 @@ WebUI.acceptAlert()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click CQC 2'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click CQC 2'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn Add Contribution'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn Add Contribution'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Input AdditionalContribution'), 
+WebUI.setText(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Input AdditionalContribution'), 
     '12')
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn Confirm'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn Confirm'))
 
 WebUI.delay(3)
 
@@ -71,18 +71,18 @@ WebUI.acceptAlert()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click CQC'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click CQC'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Tick Employer'), 
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Tick Employer'), 
     FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn Check CQC'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn Check CQC'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn LockCQC'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn LockCQC'))
 
 WebUI.delay(3)
 
@@ -94,13 +94,13 @@ WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn Approve'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Btn Approve'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click Username'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Click Username'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Log Out'))
+WebUI.click(findTestObject('KinJun/3.0 JSA Application/SEIO Internal Login - JSA Application - Approve/Page_PERKESO/Log Out'))
 

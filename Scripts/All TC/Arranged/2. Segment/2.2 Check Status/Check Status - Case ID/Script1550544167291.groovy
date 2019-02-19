@@ -17,32 +17,32 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
-WebUI.setText(findTestObject('2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input Username'), 
+WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input Username'), 
     'nadia.harun@perkeso.gov.my')
 
-WebUI.setEncryptedText(findTestObject('2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input Password'), 
+WebUI.setEncryptedText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input Password'), 
     'CQqwFZlbeC8=')
 
-WebUI.click(findTestObject('2.0 Check Status/Check Status - Case ID/Page_PERKESO/Btn Login'))
+WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Btn Login'))
 
 WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input IC'), 
+WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input IC'), 
     GlobalVariable.IC)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('2.0 Check Status/Check Status - Case ID/Page_PERKESO/Btn Check'))
+WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Btn Check'))
 
-GlobalVariable.UserName = WebUI.getText(findTestObject('2.0 Check Status/Check Status - Case ID/Page_PERKESO/TD Username'))
+GlobalVariable.UserName = WebUI.getText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/TD Username'))
 
 WebUI.callTestCase(findTestCase('Common Activity - Setter/Setter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('2.0 Check Status/Check Status - Case ID/Page_PERKESO/Click Username'))
+WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Click Username'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('2.0 Check Status/Check Status - Case ID/Page_PERKESO/Log Out'))
+WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Log Out'))
 

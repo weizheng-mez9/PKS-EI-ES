@@ -19,48 +19,48 @@ WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
 WebUI.callTestCase(findTestCase('While Loop/Internal Email Finder'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Input username'), GlobalVariable.InternalEmail)
+WebUI.setText(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Input username'), GlobalVariable.InternalEmail)
 
-WebUI.setEncryptedText(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Input password'), 
+WebUI.setEncryptedText(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Input password'), 
     'CQqwFZlbeC8=')
 
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Btn login'))
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Btn login'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click workbasket'))
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click workbasket'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click Claim'))
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click Claim'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click search claim'))
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click search claim'))
 
 WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter EOT'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Input approvalID'), GlobalVariable.EOT)
+WebUI.setText(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Input approvalID'), GlobalVariable.EOT)
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Input Ic'), GlobalVariable.IC)
+WebUI.setText(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Input Ic'), GlobalVariable.IC)
 
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Btn search'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click approvalID'))
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Btn search'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click Claim2'))
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click approvalID'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Btn unsuspend'))
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click Claim2'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Btn unsuspend'))
 
 WebUI.delay(3)
 
@@ -68,20 +68,20 @@ WebUI.acceptAlert(FailureHandling.OPTIONAL)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/click EOTID'))
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/click EOTID'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Input payment remarks'), 
+WebUI.setText(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Input payment remarks'), 
     'ok')
 
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Btn reject payment'))
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Btn reject payment'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click username'))
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Click username'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Log out'))
+WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Reject/Page_PERKESO/Log out'))
 

@@ -19,58 +19,58 @@ WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
 WebUI.callTestCase(findTestCase('While Loop/Internal Email Finder'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Input username'), 
+WebUI.setText(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Input username'), 
     GlobalVariable.InternalEmail)
 
-WebUI.setEncryptedText(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Input password'), 
+WebUI.setEncryptedText(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Input password'), 
     'CQqwFZlbeC8=')
 
-WebUI.click(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Btn login'))
+WebUI.click(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Btn login'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Click workbasket'))
+WebUI.click(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Click workbasket'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Click Claim'))
+WebUI.click(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Click Claim'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Click SearchClaim'))
+WebUI.click(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Click SearchClaim'))
 
 WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Input approvalID'), 
+WebUI.setText(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Input approvalID'), 
     GlobalVariable.ApprovalID)
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Input IC'), 
+WebUI.setText(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Input IC'), 
     GlobalVariable.IC)
 
-WebUI.click(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Btn Search'))
+WebUI.click(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Btn Search'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Click approvalID'))
+WebUI.click(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Click approvalID'))
 
 WebUI.callTestCase(findTestCase('While Loop/While Loop - Claim Click'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Input payment remarks'), 
+WebUI.setText(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Input payment remarks'), 
     'ok')
 
-WebUI.click(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Btn reject payment'))
+WebUI.click(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Btn reject payment'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Click username'))
+WebUI.click(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Click username'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Log out'))
+WebUI.click(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Reject/Page_PERKESO/Log out'))
 

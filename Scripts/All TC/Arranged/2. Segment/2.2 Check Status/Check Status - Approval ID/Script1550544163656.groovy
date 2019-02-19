@@ -17,25 +17,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
-WebUI.setText(findTestObject('2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Input Username'), 'nadia.harun@perkeso.gov.my')
+WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Input Username'), 'nadia.harun@perkeso.gov.my')
 
-WebUI.setEncryptedText(findTestObject('2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Input Password'), 'CQqwFZlbeC8=')
+WebUI.setEncryptedText(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Input Password'), 'CQqwFZlbeC8=')
 
-WebUI.click(findTestObject('2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Btn Login'))
+WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Btn Login'))
 
 WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Input IC'), GlobalVariable.IC)
+WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Input IC'), GlobalVariable.IC)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Btn Check'))
+WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Btn Check'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('2.0 Check Status/Check Status - Approval ID/Page_PERKESO/CaseID'))
+WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/Page_PERKESO/CaseID'))
 
 WebUI.delay(3)
 
@@ -45,9 +45,9 @@ WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('While Loop/While Loop - Claim Username'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Click Username'))
+WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Click Username'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Log Out'))
+WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Log Out'))
 
