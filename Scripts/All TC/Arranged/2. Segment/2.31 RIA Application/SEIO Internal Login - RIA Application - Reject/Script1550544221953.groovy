@@ -46,7 +46,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('KinJun/3.1 RIA Application/SEIO Internal Login - RIA Application - Reject/Page_PERKESO/Click CaseID'))
 
-WebUI.delay(3)
+WebUI.delay(4)
 
 WebUI.acceptAlert()
 
