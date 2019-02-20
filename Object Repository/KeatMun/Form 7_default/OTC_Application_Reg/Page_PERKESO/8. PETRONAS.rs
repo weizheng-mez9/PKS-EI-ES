@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>8. MONSOON MOTEL</name>
+   <name>8. PETRONAS</name>
    <tag></tag>
    <elementGuidId>8a88c169-8a28-4826-a53f-5990886fd4b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'PETRONAS' or . = 'PETRONAS')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -36,10 +42,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>MONSOON MOTEL</value>
+      <value>PETRONAS</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -39,11 +39,9 @@ WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERK
 
 WebUI.delay(2)
 
-GlobalVariable.IC = '950000140036'
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/IC List Checker'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/6.No. Kad Pengenalan'), GlobalVariable.IC)
-
-WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.2 Setter/Setter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -53,9 +51,9 @@ WebUI.delay(4)
 
 WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/8. Nama Majikan Dropdown'))
 
-WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/8. LOE emp'), 'mon')
+WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/8. LOE emp'), 'pet')
 
-WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/8. MONSOON MOTEL'))
+WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/8. PETRONAS'))
 
 WebUI.delay(2)
 

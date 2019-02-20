@@ -19,7 +19,10 @@ WebUI.navigateToUrl(GlobalVariable.General_Login)
 
 WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/button_Setuju'))
 
-WebUI.setText(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/input_No. Kad Pengenalan'), '810506145261')
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/IC List Checker'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/input_No. Kad Pengenalan'), 
+    GlobalVariable.IC)
 
 WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/button_Semak'))
 
@@ -29,11 +32,11 @@ WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/input_Nama Majikan'), 'may')
+WebUI.setText(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/input_Nama Majikan'), 'pet')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/select_MAYBANK INVESTMENT BANK BER'))
+WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/select_PETRONAS'))
 
 WebUI.delay(3)
 
@@ -47,7 +50,8 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/select_pejabat_perkeso'))
 
-WebUI.selectOptionByValue(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/select_pejabat_perkeso'), '22', true)
+WebUI.selectOptionByValue(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/select_pejabat_perkeso'), 
+    '22', true)
 
 WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Application_Reg/Page_PERKESO/button_Halaman Seterus'))
 

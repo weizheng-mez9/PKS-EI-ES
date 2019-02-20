@@ -17,11 +17,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
-WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input Username'), 
-    'nadia.harun@perkeso.gov.my')
+WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input Username'), 'nadia.harun@perkeso.gov.my')
 
-WebUI.setEncryptedText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input Password'), 
-    'CQqwFZlbeC8=')
+WebUI.setEncryptedText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input Password'), 'CQqwFZlbeC8=')
 
 WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Btn Login'))
 
@@ -29,8 +27,7 @@ WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input IC'), 
-    GlobalVariable.IC)
+WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input IC'), GlobalVariable.IC)
 
 WebUI.delay(3)
 
@@ -45,4 +42,6 @@ WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_
 WebUI.delay(3)
 
 WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Log Out'))
+
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/IC List Remover'), [:], FailureHandling.STOP_ON_FAILURE)
 

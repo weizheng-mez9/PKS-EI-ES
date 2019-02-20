@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_MAYBANK INVESTMENT BANK BER</name>
+   <name>select_PETRONAS</name>
    <tag></tag>
    <elementGuidId>f0919c12-34b4-4694-b66b-2c6f8ca0ed37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'PETRONAS' or . = 'PETRONAS')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -36,10 +42,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>MAYBANK INVESTMENT BANK BERHAD</value>
+      <value>PETRONAS</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
