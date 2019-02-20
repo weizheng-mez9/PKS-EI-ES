@@ -31,7 +31,7 @@ WebUI.click(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Re
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - Cheque)/Page_PERKESO/Input IP IC'), 
     GlobalVariable.IC)
@@ -191,7 +191,7 @@ WebUI.delay(3)
 
 GlobalVariable.EOT = WebUI.getText(findTestObject('KinJun/1.1 Submit Death Report/OTC - Submit Death Report (Full - Cheque)/Page_PERKESO/EOT ID'))
 
-WebUI.callTestCase(findTestCase('Common Activity - Setter/Setter EOT'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.2 Setter/Setter EOT'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

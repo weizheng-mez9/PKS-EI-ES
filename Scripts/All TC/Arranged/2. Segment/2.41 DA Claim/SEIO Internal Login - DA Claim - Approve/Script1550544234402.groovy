@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
-WebUI.callTestCase(findTestCase('While Loop/Internal Email Finder'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/Internal Email Finder'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Approve/Page_PERKESO/Input username'), GlobalVariable.InternalEmail)
 
@@ -40,11 +40,11 @@ WebUI.click(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim -
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter EOT'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter EOT'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Approve/Page_PERKESO/Input approvalID'), GlobalVariable.EOT)
 
-WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/4.1 DA Claim/SEIO Internal Login - DA Claim - Approve/Page_PERKESO/Input IC'), GlobalVariable.IC)
 

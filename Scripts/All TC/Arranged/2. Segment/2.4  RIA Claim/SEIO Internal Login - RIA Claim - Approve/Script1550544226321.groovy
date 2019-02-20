@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
-WebUI.callTestCase(findTestCase('While Loop/Internal Email Finder'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/Internal Email Finder'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Approve/Page_PERKESO/Input username'), 
     GlobalVariable.InternalEmail)
@@ -41,12 +41,12 @@ WebUI.click(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Approve/Page_PERKESO/Input approvalID'), 
     GlobalVariable.ApprovalID)
 
-WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Approve/Page_PERKESO/Input IC'), 
     GlobalVariable.IC)
@@ -57,7 +57,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('KinJun/4.0 RIA Claim/SEIO Internal Login - RIA Claim - Approve/Page_PERKESO/Click ApprovalID'))
 
-WebUI.callTestCase(findTestCase('While Loop/While Loop - Claim Click'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.3 Loops/While Loop - Claim Click'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

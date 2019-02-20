@@ -25,7 +25,7 @@ WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/P
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Input IC'), GlobalVariable.IC)
 
@@ -39,11 +39,11 @@ WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/P
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('While Loop/While Loop - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.3 Loops/While Loop - Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('While Loop/While Loop - Claim Username'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.3 Loops/While Loop - Claim Username'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Approval ID/Page_PERKESO/Click Username'))
 

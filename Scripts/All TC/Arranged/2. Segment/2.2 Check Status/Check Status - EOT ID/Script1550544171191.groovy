@@ -19,14 +19,14 @@ WebUI.navigateToUrl(GlobalVariable.EOT_Check)
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - EOT ID/Page_PERKESO/Input IC'), 
     GlobalVariable.IC)
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter EOT'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter EOT'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - EOT ID/Page_PERKESO/Input EOT'), 
     GlobalVariable.EOT)
@@ -37,9 +37,9 @@ WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - EOT ID/Page_P
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('While Loop/While Loop - EOT ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.3 Loops/While Loop - EOT ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('While Loop/While Loop - EOT Username'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.3 Loops/While Loop - EOT Username'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

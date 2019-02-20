@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Internal_Login)
 
-WebUI.callTestCase(findTestCase('While Loop/Internal Email Finder'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/Internal Email Finder'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/3.1 RIA Application/EIO Internal Login - RIA Application - Approve/Page_PERKESO/Input username'), 
     GlobalVariable.InternalEmail)
@@ -35,7 +35,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('KinJun/3.1 RIA Application/EIO Internal Login - RIA Application - Approve/Page_PERKESO/Click Search Case'))
 
-WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/3.1 RIA Application/EIO Internal Login - RIA Application - Approve/Page_PERKESO/Input IC'), 
     GlobalVariable.IC)

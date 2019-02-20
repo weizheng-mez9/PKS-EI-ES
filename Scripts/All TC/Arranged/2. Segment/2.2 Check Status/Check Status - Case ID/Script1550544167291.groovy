@@ -25,7 +25,7 @@ WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter IC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Input IC'), GlobalVariable.IC)
 
@@ -35,7 +35,7 @@ WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_
 
 GlobalVariable.UserName = WebUI.getText(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/TD Username'))
 
-WebUI.callTestCase(findTestCase('Common Activity - Setter/Setter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.2 Setter/Setter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Click Username'))
 
