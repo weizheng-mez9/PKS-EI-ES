@@ -21,11 +21,11 @@ def StrB
 
 def Counter = 1
 
-while (!(StrB.equals(StrA)) && !(Counter > findTestData("Internal User List").getRowNumbers())) {
-    StrB = findTestData("Internal User List").getValue(2, Counter)
+while (!(StrB.equals(StrA)) && !(Counter > findTestData("User-SEIO").getRowNumbers())) {
+    StrB = findTestData("User-SEIO").getValue(2, Counter)
 
     if (StrB.equals(StrA)) {
-        StrEmail = findTestData("Internal User List").getValue(1, Counter)
+        StrEmail = findTestData("User-SEIO").getValue(1, Counter)
 
         GlobalVariable.InternalEmail = StrEmail
 
