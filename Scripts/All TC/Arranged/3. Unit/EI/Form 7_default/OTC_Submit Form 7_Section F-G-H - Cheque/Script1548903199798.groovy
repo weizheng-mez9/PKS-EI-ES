@@ -38,11 +38,11 @@ WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/G2. span_Isteri'))
+WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/G2. Span_Bapa'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/G2. Bapa'))
+WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Submit Form 7_Section F-G-H/Page_PERKESO/G2. Choose_Isteri'))
 
 WebUI.delay(3)
 

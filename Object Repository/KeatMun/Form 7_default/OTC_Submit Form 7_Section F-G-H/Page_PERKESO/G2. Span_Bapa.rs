@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>G2. span_Isteri</name>
+   <name>G2. Span_Bapa</name>
    <tag></tag>
-   <elementGuidId>dffa1efe-24ee-4a63-b52b-6a88d36b2f1f</elementGuidId>
+   <elementGuidId>dea3da14-3204-46af-ae77-cb37670021a8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@id = 'select2-dependentList0dependentRelationId-container' and (contains(text(), 'Isteri') or contains(., 'Isteri'))]</value>
+         <key>XPATH</key>
+         <value>//span[@id='select2-dependentList0dependentRelationId-container']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,18 +34,18 @@
       <value>select2-dependentList0dependentRelationId-container</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Isteri</value>
+      <value>Bapa</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Isteri</value>
+      <value>Bapa</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//tbody[@id='dependentListContainer']/tr/td[4]/span/span/span/span</value>
+      <value>//tbody[@id='dependentListContainer']/tr/td[4]/div/span/span/span/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
