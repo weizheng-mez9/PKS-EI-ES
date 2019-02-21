@@ -33,3 +33,5 @@ GlobalVariable.UserName = WebUI.getText(findTestObject('ZhiHao/OTC_Semakan/OTC_S
 
 WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.2 Setter/Setter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/IC List Remover'), [:], FailureHandling.STOP_ON_FAILURE)
+
