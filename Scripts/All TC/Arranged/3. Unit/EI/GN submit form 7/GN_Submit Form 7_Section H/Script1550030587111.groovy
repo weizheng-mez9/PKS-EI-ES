@@ -23,7 +23,7 @@ WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_S
 
 WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section H/Page_PERKESO/click_upload button_I'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section H/Page_PERKESO/click_choose file button_I'), 
     GlobalVariable.TextFilePathCommon + '\\UploadDoc.txt')
