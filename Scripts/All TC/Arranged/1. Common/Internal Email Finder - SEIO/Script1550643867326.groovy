@@ -13,19 +13,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl(GlobalVariable.Internal_Login)
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter UserName'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+def StrA = GlobalVariable.UserName
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/Internal Email Finder - SEIO'), [:], FailureHandling.STOP_ON_FAILURE)
+def StrB
 
-WebUI.setText(findTestObject('Yuki/Approval ERA/OTC Login/Email'), GlobalVariable.InternalEmail)
+def Counter = 1
 
-WebUI.delay(2)
+while (!(StrB.equals(StrA)) && !(Counter > findTestData("Internal User List").getRowNumbers())) {
+    StrB = findTestData("Internal User List").getValue(2, Counter)
 
-WebUI.setEncryptedText(findTestObject('Yuki/Approval ERA/OTC Login/Password'), 'CQqwFZlbeC8=')
+    if (StrB.equals(StrA)) {
+        StrEmail = findTestData("Internal User List").getValue(1, Counter)
 
-WebUI.delay(2)
+        GlobalVariable.InternalEmail = StrEmail
 
-WebUI.click(findTestObject('Yuki/Approval ERA/OTC Login/Login Button'))
+        System.out.println(StrEmail)
+    }
+    
+    Counter++
+}
 

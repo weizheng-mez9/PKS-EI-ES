@@ -4,6 +4,12 @@
    <name>G2. span_Isteri</name>
    <tag></tag>
    <elementGuidId>dffa1efe-24ee-4a63-b52b-6a88d36b2f1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id = 'select2-dependentList0dependentRelationId-container' and (contains(text(), 'Isteri') or contains(., 'Isteri'))]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>select2-dependentList0dependentRelationId-container</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
@@ -36,7 +42,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Isteri</value>

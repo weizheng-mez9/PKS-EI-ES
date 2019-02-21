@@ -26,7 +26,7 @@ WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_S
 WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section H/Page_PERKESO/click_choose file button_I'), 
-    'C:\\Users\\LENOVO\\Desktop\\22.1.18.txt')
+    GlobalVariable.TextFilePathCommon + '\\UploadDoc.txt')
 
 WebUI.delay(2)
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_S
 WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section H/Page_PERKESO/click_choose file button_I'), 
-    'C:\\Users\\LENOVO\\Desktop\\22.1.18.txt')
+    GlobalVariable.TextFilePathCommon + '\\UploadDoc.txt')
 
 WebUI.delay(3)
 
@@ -68,7 +68,7 @@ WebUI.click(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_S
 WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('ZhiHao/General_User_Submit_form 7/GN_Submit Form 7_Section H/Page_PERKESO/click_choose file button_I'), 
-    'C:\\Users\\LENOVO\\Desktop\\22.1.18.txt')
+    GlobalVariable.TextFilePathCommon + '\\UploadDoc.txt')
 
 WebUI.delay(3)
 
