@@ -1,0 +1,281 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 72.0.3626.109,,2019-02-20 16:48:48,2019-02-20 20:12:58,3h - 24m - 10.396s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Training/Decline/2 VO Search and Decline,Chrome 72.0.3626.109,,2019-02-20 16:48:48,2019-02-20 16:49:45,57.232s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/VO Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:48:48,2019-02-20 16:49:23,34.531s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:49:23,2019-02-20 16:49:25,2.014s,PASSED
+"click(findTestObject(""Rizky/VO Search and Aprove/Tindakan""))",Chrome 72.0.3626.109,,2019-02-20 16:49:25,2019-02-20 16:49:27,2.147s,PASSED
+"click(findTestObject(""Rizky/VO Search and Aprove/Tindakan-Kemaskini""))",Chrome 72.0.3626.109,,2019-02-20 16:49:27,2019-02-20 16:49:30,3.307s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:49:30,2019-02-20 16:49:32,2.002s,PASSED
+"click(findTestObject(""Rizky/VO Search and Aprove/Jenis Keputusan""))",Chrome 72.0.3626.109,,2019-02-20 16:49:32,2019-02-20 16:49:35,2.225s,PASSED
+"click(findTestObject(""Rizky/VO Search and Aprove/Jenis Keputusan-Maklumat Lengkap""))",Chrome 72.0.3626.109,,2019-02-20 16:49:35,2019-02-20 16:49:35,0.004s,NOT_RUN
+"click(findTestObject(""Rizky/VO Search and Decline/Jenis Keputusan-Maklumat Tidak Lengkap  Han""))",Chrome 72.0.3626.109,,2019-02-20 16:49:35,2019-02-20 16:49:37,2.204s,PASSED
+"setText(findTestObject(""Rizky/VO Search and Aprove/Catatan Pegawai Vokasional (Ibu Pejabat)""), ""abc"")",Chrome 72.0.3626.109,,2019-02-20 16:49:37,2019-02-20 16:49:41,4.268s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:49:41,2019-02-20 16:49:43,2.004s,PASSED
+"verifyElementClickable(findTestObject(""Rizky/VO Search and Aprove/Hantar""))",Chrome 72.0.3626.109,,2019-02-20 16:49:43,2019-02-20 16:49:45,2.085s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Training/Decline/1 KU Search and Decline,Chrome 72.0.3626.109,,2019-02-20 16:49:45,2019-02-20 16:50:37,51.805s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/KU Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:49:45,2019-02-20 16:50:08,22.766s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tindakan""))",Chrome 72.0.3626.109,,2019-02-20 16:50:08,2019-02-20 16:50:10,2.159s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tindakan-Kemaskini""))",Chrome 72.0.3626.109,,2019-02-20 16:50:10,2019-02-20 16:50:14,3.348s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:50:14,2019-02-20 16:50:16,2.003s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Jenis Kelulusan""))",Chrome 72.0.3626.109,,2019-02-20 16:50:16,2019-02-20 16:50:16,0.002s,NOT_RUN
+"click(findTestObject(""Rizky/KU Search and Approve/Jenis Kelulusan-Lulus""))",Chrome 72.0.3626.109,,2019-02-20 16:50:16,2019-02-20 16:50:16,0.002s,NOT_RUN
+"click(findTestObject(""Rizky/KU Search and Decline/Jenis Kelulusan-Lain-lain""))",Chrome 72.0.3626.109,,2019-02-20 16:50:16,2019-02-20 16:50:16,0.000s,NOT_RUN
+"setText(findTestObject(""Rizky/KU Search and Approve/Catatan Ketua Unit Vokasional""), ""abcd"")",Chrome 72.0.3626.109,,2019-02-20 16:50:16,2019-02-20 16:50:16,0.000s,NOT_RUN
+"click(findTestObject(""Rizky/KU Search and Approve/Kes Baru""))",Chrome 72.0.3626.109,,2019-02-20 16:50:16,2019-02-20 16:50:18,2.231s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Kes Baru-Sedang Berkursus""))",Chrome 72.0.3626.109,,2019-02-20 16:50:18,2019-02-20 16:50:20,2.159s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Mula""))",Chrome 72.0.3626.109,,2019-02-20 16:50:20,2019-02-20 16:50:22,2.320s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Mula-18""))",Chrome 72.0.3626.109,,2019-02-20 16:50:22,2019-02-20 16:50:25,2.144s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:50:25,2019-02-20 16:50:27,2.002s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Mula-Done""))",Chrome 72.0.3626.109,,2019-02-20 16:50:27,2019-02-20 16:50:27,0.002s,NOT_RUN
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:50:27,2019-02-20 16:50:29,2.003s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Tamat""))",Chrome 72.0.3626.109,,2019-02-20 16:50:29,2019-02-20 16:50:31,2.171s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Tamat-19""))",Chrome 72.0.3626.109,,2019-02-20 16:50:31,2019-02-20 16:50:33,2.144s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:50:33,2019-02-20 16:50:35,2.003s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Tamat-Done""))",Chrome 72.0.3626.109,,2019-02-20 16:50:35,2019-02-20 16:50:35,0.002s,NOT_RUN
+"verifyElementClickable(findTestObject(""Rizky/KU Search and Approve/Hantar""))",Chrome 72.0.3626.109,,2019-02-20 16:50:35,2019-02-20 16:50:37,2.058s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Training/Approve/IP Apply,Chrome 72.0.3626.109,,2019-02-20 16:50:37,2019-02-20 16:52:03,1m - 26.554s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/IP Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:50:37,2019-02-20 16:51:29,52.062s,PASSED
+"mouseOver(findTestObject(""Rizky/IP Apply/Permohonan Latihan""))",Chrome 72.0.3626.109,,2019-02-20 16:51:29,2019-02-20 16:51:32,3.143s,PASSED
+"click(findTestObject(""Rizky/IP Apply/Permohonan Latihan-Latihan""))",Chrome 72.0.3626.109,,2019-02-20 16:51:32,2019-02-20 16:51:36,3.169s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:51:36,2019-02-20 16:51:38,2.002s,PASSED
+"setText(findTestObject(""Rizky/IP Apply/Jawatan Terakhir""), ""a"")",Chrome 72.0.3626.109,,2019-02-20 16:51:38,2019-02-20 16:51:42,4.311s,PASSED
+"setText(findTestObject(""Rizky/IP Apply/Gaji Terakhir""), ""1"")",Chrome 72.0.3626.109,,2019-02-20 16:51:42,2019-02-20 16:51:46,4.237s,PASSED
+"click(findTestObject(""Rizky/IP Apply/Ujian Psikometrik -""))",Chrome 72.0.3626.109,,2019-02-20 16:51:46,2019-02-20 16:51:48,2.196s,PASSED
+"click(findTestObject(""Rizky/IP Apply/Ujian Psikometrik - Realistic""))",Chrome 72.0.3626.109,,2019-02-20 16:51:48,2019-02-20 16:51:51,2.182s,PASSED
+"click(findTestObject(""Rizky/IP Apply/Institut""))",Chrome 72.0.3626.109,,2019-02-20 16:51:51,2019-02-20 16:51:53,2.175s,PASSED
+"click(findTestObject(""Rizky/IP Apply/Institut-NIOSH HQ (BANGI)""))",Chrome 72.0.3626.109,,2019-02-20 16:51:53,2019-02-20 16:51:55,2.180s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:51:55,2019-02-20 16:51:57,2.001s,PASSED
+"click(findTestObject(""Rizky/IP Apply/Nama Kursus""))",Chrome 72.0.3626.109,,2019-02-20 16:51:57,2019-02-20 16:51:59,2.178s,PASSED
+"click(findTestObject(""Rizky/IP Apply/Nama Kursus-Safety and Health Officer (""))",Chrome 72.0.3626.109,,2019-02-20 16:51:59,2019-02-20 16:52:01,2.181s,PASSED
+"click(findTestObject(""Rizky/IP Apply/Hantar""))",Chrome 72.0.3626.109,,2019-02-20 16:52:01,2019-02-20 16:52:03,2.173s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Training/Approve/6 KU Search and update date,Chrome 72.0.3626.109,,2019-02-20 16:52:03,2019-02-20 16:52:46,42.814s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/KU Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:52:04,2019-02-20 16:52:28,24.269s,PASSED
+"click(findTestObject(""Rizky/KU Search and update date/Tindakan""))",Chrome 72.0.3626.109,,2019-02-20 16:52:28,2019-02-20 16:52:30,2.168s,PASSED
+"click(findTestObject(""Rizky/KU Search and update date/Tindakan-Kemaskini""))",Chrome 72.0.3626.109,,2019-02-20 16:52:30,2019-02-20 16:52:33,3.248s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:52:33,2019-02-20 16:52:35,2.003s,PASSED
+"click(findTestObject(""Rizky/KU Search and update date/Tarikh Mula""))",Chrome 72.0.3626.109,,2019-02-20 16:52:35,2019-02-20 16:52:38,2.290s,PASSED
+"click(findTestObject(""Rizky/KU Search and update date/Tarikh Mula-18""))",Chrome 72.0.3626.109,,2019-02-20 16:52:38,2019-02-20 16:52:40,2.138s,PASSED
+"click(findTestObject(""Rizky/KU Search and update date/Tarikh Mula-Done""))",Chrome 72.0.3626.109,,2019-02-20 16:52:40,2019-02-20 16:52:40,0.001s,NOT_RUN
+"click(findTestObject(""Rizky/KU Search and update date/Tarikh Tamat""))",Chrome 72.0.3626.109,,2019-02-20 16:52:40,2019-02-20 16:52:42,2.170s,PASSED
+"click(findTestObject(""Rizky/KU Search and update date/Tarikh Tamat-19""))",Chrome 72.0.3626.109,,2019-02-20 16:52:42,2019-02-20 16:52:44,2.140s,PASSED
+"click(findTestObject(""Rizky/KU Search and update date/Tarikh Tamat-Done""))",Chrome 72.0.3626.109,,2019-02-20 16:52:44,2019-02-20 16:52:44,0.001s,NOT_RUN
+"verifyElementClickable(findTestObject(""Rizky/KU Search and update date/Hantar""))",Chrome 72.0.3626.109,,2019-02-20 16:52:44,2019-02-20 16:52:46,2.062s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Training/Approve/5 KU Search and change status to ongoing,Chrome 72.0.3626.109,,2019-02-20 16:52:46,2019-02-20 16:53:23,36.583s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/KU Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:52:47,2019-02-20 16:53:09,22.415s,PASSED
+"click(findTestObject(""Rizky/KU Search and change status to ongoing/Tindakan""))",Chrome 72.0.3626.109,,2019-02-20 16:53:09,2019-02-20 16:53:11,2.158s,PASSED
+"click(findTestObject(""Rizky/KU Search and change status to ongoing/Tindakan-Kemaskini""))",Chrome 72.0.3626.109,,2019-02-20 16:53:11,2019-02-20 16:53:14,3.316s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:53:14,2019-02-20 16:53:16,2.002s,PASSED
+"click(findTestObject(""Rizky/KU Search and change status to ongoing/Kes Baru""))",Chrome 72.0.3626.109,,2019-02-20 16:53:16,2019-02-20 16:53:19,2.235s,PASSED
+"click(findTestObject(""Rizky/KU Search and change status to ongoing/Kes Baru-Sedang Berkursus""))",Chrome 72.0.3626.109,,2019-02-20 16:53:19,2019-02-20 16:53:21,2.155s,PASSED
+"verifyElementClickable(findTestObject(""Rizky/KU Search and change status to ongoing/Hantar""))",Chrome 72.0.3626.109,,2019-02-20 16:53:21,2019-02-20 16:53:23,2.058s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Training/Approve/4 KU Search and Approve,Chrome 72.0.3626.109,,2019-02-20 16:53:23,2019-02-20 16:54:08,45.339s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/KU Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:53:23,2019-02-20 16:53:45,22.252s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tindakan""))",Chrome 72.0.3626.109,,2019-02-20 16:53:45,2019-02-20 16:53:48,2.141s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tindakan-Kemaskini""))",Chrome 72.0.3626.109,,2019-02-20 16:53:48,2019-02-20 16:53:51,3.481s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:53:51,2019-02-20 16:53:53,2.002s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Jenis Kelulusan""))",Chrome 72.0.3626.109,,2019-02-20 16:53:53,2019-02-20 16:53:53,0.001s,NOT_RUN
+"click(findTestObject(""Rizky/KU Search and Approve/Jenis Kelulusan-Lulus""))",Chrome 72.0.3626.109,,2019-02-20 16:53:53,2019-02-20 16:53:53,0.001s,NOT_RUN
+"setText(findTestObject(""Rizky/KU Search and Approve/Catatan Ketua Unit Vokasional""), ""abcd"")",Chrome 72.0.3626.109,,2019-02-20 16:53:53,2019-02-20 16:53:53,0.001s,NOT_RUN
+"click(findTestObject(""Rizky/KU Search and Approve/Kes Baru""))",Chrome 72.0.3626.109,,2019-02-20 16:53:53,2019-02-20 16:53:55,2.216s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Kes Baru-Sedang Berkursus""))",Chrome 72.0.3626.109,,2019-02-20 16:53:55,2019-02-20 16:53:57,2.139s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Mula""))",Chrome 72.0.3626.109,,2019-02-20 16:53:57,2019-02-20 16:54:00,2.300s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Mula-18""))",Chrome 72.0.3626.109,,2019-02-20 16:54:00,2019-02-20 16:54:02,2.148s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Mula-Done""))",Chrome 72.0.3626.109,,2019-02-20 16:54:02,2019-02-20 16:54:02,0.001s,NOT_RUN
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Tamat""))",Chrome 72.0.3626.109,,2019-02-20 16:54:02,2019-02-20 16:54:04,2.163s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Tamat-19""))",Chrome 72.0.3626.109,,2019-02-20 16:54:04,2019-02-20 16:54:06,2.145s,PASSED
+"click(findTestObject(""Rizky/KU Search and Approve/Tarikh Tamat-Done""))",Chrome 72.0.3626.109,,2019-02-20 16:54:06,2019-02-20 16:54:06,0.001s,NOT_RUN
+"verifyElementClickable(findTestObject(""Rizky/KU Search and Approve/Hantar""))",Chrome 72.0.3626.109,,2019-02-20 16:54:06,2019-02-20 16:54:08,2.059s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Training/Approve/3v2 VO Seach and Reject,Chrome 72.0.3626.109,,2019-02-20 16:54:08,2019-02-20 16:54:53,44.791s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/VO Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:54:08,2019-02-20 16:54:31,22.488s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:54:31,2019-02-20 16:54:33,2.003s,PASSED
+"click(findTestObject(""Rizky/VO Search and Reject/Tindakan""))",Chrome 72.0.3626.109,,2019-02-20 16:54:33,2019-02-20 16:54:35,2.164s,PASSED
+"click(findTestObject(""Rizky/VO Search and Reject/Tindakan-Kemaskini""))",Chrome 72.0.3626.109,,2019-02-20 16:54:35,2019-02-20 16:54:38,3.268s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:54:38,2019-02-20 16:54:40,2.002s,PASSED
+"click(findTestObject(""Rizky/VO Search and Reject/Jenis Keputusan""))",Chrome 72.0.3626.109,,2019-02-20 16:54:40,2019-02-20 16:54:43,2.181s,PASSED
+"click(findTestObject(""Rizky/VO Search and Reject/Jenis Keputusan-Maklumat Tidak Lengkap  Han""))",Chrome 72.0.3626.109,,2019-02-20 16:54:43,2019-02-20 16:54:45,2.155s,PASSED
+"setText(findTestObject(""Rizky/VO Search and Reject/Catatan Pegawai Vokasional (Ibu Pejabat)""), ""abc"")",Chrome 72.0.3626.109,,2019-02-20 16:54:45,2019-02-20 16:54:49,4.208s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:54:49,2019-02-20 16:54:51,2.002s,PASSED
+"verifyElementClickable(findTestObject(""Rizky/VO Search and Reject/Hantar""))",Chrome 72.0.3626.109,,2019-02-20 16:54:51,2019-02-20 16:54:53,2.056s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Training/Approve/3 VO Seach and Approve,Chrome 72.0.3626.109,,2019-02-20 16:54:53,2019-02-20 16:55:45,52.273s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/VO Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:54:53,2019-02-20 16:55:18,24.324s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:55:18,2019-02-20 16:55:20,2.003s,PASSED
+"click(findTestObject(""Rizky/VO Search and Aprove/Tindakan""))",Chrome 72.0.3626.109,,2019-02-20 16:55:20,2019-02-20 16:55:22,2.157s,PASSED
+"click(findTestObject(""Rizky/VO Search and Aprove/Tindakan-Kemaskini""))",Chrome 72.0.3626.109,,2019-02-20 16:55:22,2019-02-20 16:55:30,7.841s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:55:30,2019-02-20 16:55:32,2.002s,PASSED
+"click(findTestObject(""Rizky/VO Search and Aprove/Jenis Keputusan""))",Chrome 72.0.3626.109,,2019-02-20 16:55:32,2019-02-20 16:55:34,2.251s,PASSED
+"click(findTestObject(""Rizky/VO Search and Aprove/Jenis Keputusan-Maklumat Lengkap""))",Chrome 72.0.3626.109,,2019-02-20 16:55:34,2019-02-20 16:55:36,2.152s,PASSED
+"setText(findTestObject(""Rizky/VO Search and Aprove/Catatan Pegawai Vokasional (Ibu Pejabat)""), ""abc"")",Chrome 72.0.3626.109,,2019-02-20 16:55:36,2019-02-20 16:55:41,5.209s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:55:41,2019-02-20 16:55:43,2.002s,PASSED
+"verifyElementClickable(findTestObject(""Rizky/VO Search and Aprove/Hantar""))",Chrome 72.0.3626.109,,2019-02-20 16:55:43,2019-02-20 16:55:45,2.057s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Training/Approve/2v2 SEO Search and Reject,Chrome 72.0.3626.109,,2019-02-20 16:55:45,2019-02-20 16:56:33,47.900s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/SEO Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:55:46,2019-02-20 16:56:08,22.687s,PASSED
+"click(findTestObject(""Rizky/SEO Search and Reject/LATIHAN""))",Chrome 72.0.3626.109,,2019-02-20 16:56:08,2019-02-20 16:56:11,2.615s,PASSED
+"click(findTestObject(""Rizky/SEO Search and Reject/Tindakan""))",Chrome 72.0.3626.109,,2019-02-20 16:56:11,2019-02-20 16:56:13,2.143s,PASSED
+"click(findTestObject(""Rizky/SEO Search and Reject/Kemaskini""))",Chrome 72.0.3626.109,,2019-02-20 16:56:13,2019-02-20 16:56:16,3.319s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:56:16,2019-02-20 16:56:18,2.003s,PASSED
+"click(findTestObject(""Rizky/SEO Search and Reject/Jenis Pengesyoran""))",Chrome 72.0.3626.109,,2019-02-20 16:56:18,2019-02-20 16:56:21,2.192s,PASSED
+"click(findTestObject(""Rizky/SEO Search and Reject/Jenis Pengesyoran-Lain-lain  Hantar Semula""))",Chrome 72.0.3626.109,,2019-02-20 16:56:21,2019-02-20 16:56:23,2.162s,PASSED
+"setText(findTestObject(""Rizky/SEO Search and Reject/Jika Pilih Lain Sila Nyatakan""), ""lain lain"")",Chrome 72.0.3626.109,,2019-02-20 16:56:23,2019-02-20 16:56:27,4.243s,PASSED
+"setText(findTestObject(""Rizky/SEO Search and Reject/Catatan Negeri Pegawai Pekerjaan Kanan  Catatan Pegawai Negeri Pekerjaan Kanan""), ""abc"")",Chrome 72.0.3626.109,,2019-02-20 16:56:27,2019-02-20 16:56:31,4.194s,PASSED
+"verifyElementClickable(findTestObject(""Rizky/SEO Search and Reject/Hantar""))",Chrome 72.0.3626.109,,2019-02-20 16:56:31,2019-02-20 16:56:33,2.056s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Training/Approve/2 SEO Seach and Approve,Chrome 72.0.3626.109,,2019-02-20 16:56:33,2019-02-20 16:57:16,43.284s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/SEO Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:56:33,2019-02-20 16:56:56,22.442s,PASSED
+"click(findTestObject(""Rizky/SEO Search and Approve/LATIHAN""))",Chrome 72.0.3626.109,,2019-02-20 16:56:56,2019-02-20 16:56:58,2.612s,PASSED
+"click(findTestObject(""Rizky/SEO Search and Approve/Tindakan""))",Chrome 72.0.3626.109,,2019-02-20 16:56:58,2019-02-20 16:57:01,2.143s,PASSED
+"click(findTestObject(""Rizky/SEO Search and Approve/Kemaskini""))",Chrome 72.0.3626.109,,2019-02-20 16:57:01,2019-02-20 16:57:04,3.252s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:57:04,2019-02-20 16:57:06,2.002s,PASSED
+"click(findTestObject(""Rizky/SEO Search and Approve/Jenis Pengesyoran""))",Chrome 72.0.3626.109,,2019-02-20 16:57:06,2019-02-20 16:57:08,2.182s,PASSED
+"click(findTestObject(""Rizky/SEO Search and Approve/Jenis Pengesyoran-Memerlukan Latihan""))",Chrome 72.0.3626.109,,2019-02-20 16:57:08,2019-02-20 16:57:10,2.179s,PASSED
+"setText(findTestObject(""Rizky/SEO Search and Approve/Catatan Negeri Pegawai Pekerjaan Kanan  Catatan Pegawai Negeri Pekerjaan Kanan""), ""abc"")",Chrome 72.0.3626.109,,2019-02-20 16:57:10,2019-02-20 16:57:14,4.203s,PASSED
+"verifyElementClickable(findTestObject(""Rizky/SEO Search and Approve/Hantar""))",Chrome 72.0.3626.109,,2019-02-20 16:57:14,2019-02-20 16:57:16,2.057s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Training/Approve/1 ESO Apply and Approve,Chrome 72.0.3626.109,,2019-02-20 16:57:16,2019-02-20 16:58:55,1m - 38.739s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/ESO Login (1)""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:57:17,2019-02-20 16:57:39,22.737s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/1-1 ESO Apply""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:57:39,2019-02-20 16:58:30,50.432s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/3. Unit/ES/1-2 ESO Approve""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:58:30,2019-02-20 16:58:55,25.305s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Submit Form 7 (General) - Case Reassignment Same Branch SEIO,Chrome 72.0.3626.109,,2019-02-20 16:58:55,2019-02-20 17:16:00,17m - 4.742s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/GN_Submit Form 7_End to End""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 16:58:56,2019-02-20 17:10:09,11m - 13.229s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/2.8 OTC_Semakan/OTC_Semakan(By IC)""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 17:10:09,2019-02-20 17:10:42,32.803s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/2.3 JSA Application/EIO Internal Login - JSA Application - Approve""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 17:10:42,2019-02-20 17:15:59,5m - 17.885s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Submit Form 7 (General) - Case Reassignment Same Branch EIO,Chrome 72.0.3626.109,,2019-02-20 17:16:00,2019-02-20 17:16:59,59.048s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/GN_Submit Form 7_End to End""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 17:16:00,2019-02-20 17:16:59,58.514s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Submit Form 7 (General) - Case Reassignment Cross Branch SEIO,Chrome 72.0.3626.109,,2019-02-20 17:16:59,2019-02-20 17:18:00,1m - 1.464s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/GN_Submit Form 7_End to End""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 17:16:59,2019-02-20 17:17:58,58.674s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Submit Form 7 (General) - Case Reassignment Cross Branch EIO,Chrome 72.0.3626.109,,2019-02-20 17:18:00,2019-02-20 17:18:59,58.609s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/GN_Submit Form 7_End to End""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 17:18:01,2019-02-20 17:18:59,57.708s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Reject Claim - RIA,Chrome 72.0.3626.109,,2019-02-20 17:18:59,2019-02-20 17:28:49,9m - 49.571s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 17:18:59,2019-02-20 17:28:49,9m - 49.214s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Reject Claim - DA,Chrome 72.0.3626.109,,2019-02-20 17:28:49,2019-02-20 17:38:36,9m - 46.844s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 17:28:49,2019-02-20 17:38:35,9m - 46.077s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Reject Application - RIA,Chrome 72.0.3626.109,,2019-02-20 17:38:36,2019-02-20 17:48:23,9m - 47.296s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 17:38:36,2019-02-20 17:48:23,9m - 46.476s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Reject Application - JSA,Chrome 72.0.3626.109,,2019-02-20 17:48:23,2019-02-20 17:58:10,9m - 46.516s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 17:48:24,2019-02-20 17:58:10,9m - 46.241s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Query/Same branch - SEIO,Chrome 72.0.3626.109,,2019-02-20 17:58:10,2019-02-20 18:07:57,9m - 46.435s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 17:58:11,2019-02-20 18:07:57,9m - 46.104s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Query/Same branch - EIO,Chrome 72.0.3626.109,,2019-02-20 18:07:57,2019-02-20 18:17:44,9m - 46.909s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 18:07:57,2019-02-20 18:17:44,9m - 46.409s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Query/Same branch - EI Clerk,Chrome 72.0.3626.109,,2019-02-20 18:17:44,2019-02-20 18:27:31,9m - 46.816s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 18:17:44,2019-02-20 18:27:30,9m - 46.100s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Query/Cross branch - SEIO,Chrome 72.0.3626.109,,2019-02-20 18:27:31,2019-02-20 18:37:17,9m - 46.690s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 18:27:31,2019-02-20 18:37:17,9m - 46.467s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Query/Cross branch - EIO,Chrome 72.0.3626.109,,2019-02-20 18:37:17,2019-02-20 18:47:05,9m - 47.212s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 18:37:18,2019-02-20 18:47:05,9m - 46.632s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Disbursement end to end (EFT Reject),Chrome 72.0.3626.109,,2019-02-20 18:47:05,2019-02-20 18:48:03,57.784s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/2.6 Disbursement/DS - EFT/DS - Pending Claim (EFT)""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 18:47:06,2019-02-20 18:48:02,56.604s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Disbursement end to end (EFT Approved),Chrome 72.0.3626.109,,2019-02-20 18:48:03,2019-02-20 18:49:00,57.259s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/2.6 Disbursement/DS - EFT/DS - Pending Claim (EFT)""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 18:48:03,2019-02-20 18:48:59,56.174s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Disbursement end to end (CHQ Reject),Chrome 72.0.3626.109,,2019-02-20 18:49:00,2019-02-20 18:49:58,57.522s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/2.6 Disbursement/DS - CHQ/DS - Pending Claim (CHQ)""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 18:49:01,2019-02-20 18:49:57,56.345s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Disbursement end to end (CHQ Approved),Chrome 72.0.3626.109,,2019-02-20 18:49:58,2019-02-20 18:50:55,57.322s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/2.6 Disbursement/DS - CHQ/DS - Pending Claim (CHQ)""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 18:49:58,2019-02-20 18:50:54,56.049s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/DA Report - Partial,Chrome 72.0.3626.109,,2019-02-20 18:50:55,2019-02-20 19:00:43,9m - 47.816s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 18:50:55,2019-02-20 19:00:43,9m - 47.168s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Case Reg_OTC,Chrome 72.0.3626.109,,2019-02-20 19:00:43,2019-02-20 19:01:52,1m - 9.345s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.109,,2019-02-20 19:00:43,2019-02-20 19:00:49,5.895s,PASSED
+navigateToUrl(Internal_Login),Chrome 72.0.3626.109,,2019-02-20 19:00:49,2019-02-20 19:00:51,1.672s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 19:00:51,2019-02-20 19:00:53,2.002s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_OTC/mkotc email""), MK_OTC_3)",Chrome 72.0.3626.109,,2019-02-20 19:00:53,2019-02-20 19:00:57,4.317s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_OTC/mkotc pw""), Internal_PW)",Chrome 72.0.3626.109,,2019-02-20 19:00:57,2019-02-20 19:01:01,4.214s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_OTC/Login Button""))",Chrome 72.0.3626.109,,2019-02-20 19:01:01,2019-02-20 19:01:04,3.164s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 19:01:04,2019-02-20 19:01:06,2.001s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_OTC/a_PENDAFTARAN KES""))",Chrome 72.0.3626.109,,2019-02-20 19:01:06,2019-02-20 19:01:09,2.689s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/1. Common/Name and IC Generator""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 19:01:09,2019-02-20 19:01:18,8.936s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_OTC/insert mobile number""), ""99999999999"")",Chrome 72.0.3626.109,,2019-02-20 19:01:18,2019-02-20 19:01:22,4.284s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_OTC/Submit Button""))",Chrome 72.0.3626.109,,2019-02-20 19:01:22,2019-02-20 19:01:25,2.147s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 19:01:25,2019-02-20 19:01:27,2.000s,PASSED
+"selectOptionByValue(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_OTC/Kategori carian - MyKad""), ""2"", true)",Chrome 72.0.3626.109,,2019-02-20 19:01:27,2019-02-20 19:01:42,15.287s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_OTC/Insert IC""), ICRand)",Chrome 72.0.3626.109,,2019-02-20 19:01:42,2019-02-20 19:01:46,4.263s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_CM/Search Button""))",Chrome 72.0.3626.109,,2019-02-20 19:01:46,2019-02-20 19:01:48,2.134s,PASSED
+"focus(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_OTC/To verify record existed""))",Chrome 72.0.3626.109,,2019-02-20 19:01:48,2019-02-20 19:01:52,4.098s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Case Reg_ESO_selfassign,Chrome 72.0.3626.109,,2019-02-20 19:01:52,2019-02-20 19:03:13,1m - 20.532s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.109,,2019-02-20 19:01:53,2019-02-20 19:01:58,5.844s,PASSED
+navigateToUrl(Internal_Login),Chrome 72.0.3626.109,,2019-02-20 19:01:58,2019-02-20 19:02:00,1.679s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 19:02:00,2019-02-20 19:02:02,2.000s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/mkeso email""), MK_ESO_3)",Chrome 72.0.3626.109,,2019-02-20 19:02:02,2019-02-20 19:02:06,4.307s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/mkeso pw""), Internal_PW)",Chrome 72.0.3626.109,,2019-02-20 19:02:06,2019-02-20 19:02:11,4.206s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Login Button""))",Chrome 72.0.3626.109,,2019-02-20 19:02:11,2019-02-20 19:02:14,3.175s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 19:02:14,2019-02-20 19:02:16,2.002s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/a_PENDAFTARAN KES""))",Chrome 72.0.3626.109,,2019-02-20 19:02:16,2019-02-20 19:02:19,2.705s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/1. Common/Name and IC Generator""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 19:02:19,2019-02-20 19:02:27,8.721s,PASSED
+"selectOptionByValue(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Kategori Kes""), ""5"", true)",Chrome 72.0.3626.109,,2019-02-20 19:02:27,2019-02-20 19:02:44,16.294s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Catatan""), ""a"")",Chrome 72.0.3626.109,,2019-02-20 19:02:44,2019-02-20 19:02:48,4.175s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Submit Button""))",Chrome 72.0.3626.109,,2019-02-20 19:02:48,2019-02-20 19:02:50,2.132s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 19:02:50,2019-02-20 19:02:52,2.000s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Search By - My Kad""))",Chrome 72.0.3626.109,,2019-02-20 19:02:52,2019-02-20 19:02:54,2.169s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Set Search value""), ""MyKad"")",Chrome 72.0.3626.109,,2019-02-20 19:02:54,2019-02-20 19:02:58,4.229s,PASSED
+"sendKeys(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Set Search value - ENTER""), Keys.chord(ENTER))",Chrome 72.0.3626.109,,2019-02-20 19:02:58,2019-02-20 19:03:00,2.107s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Insert IC""), ICRand)",Chrome 72.0.3626.109,,2019-02-20 19:03:00,2019-02-20 19:03:05,4.250s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/Search Button""))",Chrome 72.0.3626.109,,2019-02-20 19:03:05,2019-02-20 19:03:07,2.133s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 19:03:07,2019-02-20 19:03:09,2.002s,PASSED
+"focus(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_ESO_selfassign/To verify record existed""))",Chrome 72.0.3626.109,,2019-02-20 19:03:09,2019-02-20 19:03:13,4.079s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Case Reg_CM,Chrome 72.0.3626.109,,2019-02-20 19:03:13,2019-02-20 19:04:24,1m - 11.116s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.109,,2019-02-20 19:03:13,2019-02-20 19:03:19,5.930s,PASSED
+navigateToUrl(Internal_Login),Chrome 72.0.3626.109,,2019-02-20 19:03:19,2019-02-20 19:03:21,1.713s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 19:03:21,2019-02-20 19:03:23,2.000s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_CM/mkcm email""), MK_CM)",Chrome 72.0.3626.109,,2019-02-20 19:03:23,2019-02-20 19:03:27,4.332s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_CM/mkcm pw""), Internal_PW)",Chrome 72.0.3626.109,,2019-02-20 19:03:27,2019-02-20 19:03:31,4.219s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_CM/Login Button""))",Chrome 72.0.3626.109,,2019-02-20 19:03:31,2019-02-20 19:03:34,2.987s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 19:03:34,2019-02-20 19:03:36,2.001s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_CM/Button PENDAFTARAN KES""))",Chrome 72.0.3626.109,,2019-02-20 19:03:36,2019-02-20 19:03:39,2.683s,PASSED
+"callTestCase(findTestCase(""All TC/Arranged/1. Common/Name and IC Generator""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 19:03:39,2019-02-20 19:03:48,8.744s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_CM/insert mobile number""), ""99999999999"")",Chrome 72.0.3626.109,,2019-02-20 19:03:48,2019-02-20 19:03:52,4.289s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_CM/Submit Button""))",Chrome 72.0.3626.109,,2019-02-20 19:03:52,2019-02-20 19:03:54,2.150s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 19:03:54,2019-02-20 19:03:56,2.002s,PASSED
+"selectOptionByValue(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_CM/Kategori carian - MyKad""), ""2"", true)",Chrome 72.0.3626.109,,2019-02-20 19:03:56,2019-02-20 19:04:11,15.288s,PASSED
+"setText(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_CM/Insert IC""), ICRand)",Chrome 72.0.3626.109,,2019-02-20 19:04:11,2019-02-20 19:04:16,4.258s,PASSED
+"click(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_CM/Search Button""))",Chrome 72.0.3626.109,,2019-02-20 19:04:16,2019-02-20 19:04:18,2.131s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 19:04:18,2019-02-20 19:04:20,2.001s,PASSED
+"focus(findTestObject(""Kelvin/Portal (10.20.24.198)/Case Reg_CM/To verify record existed""))",Chrome 72.0.3626.109,,2019-02-20 19:04:20,2019-02-20 19:04:24,4.086s,PASSED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Approve Claim - RIA,Chrome 72.0.3626.109,,2019-02-20 19:04:24,2019-02-20 19:14:11,9m - 47.202s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 19:04:24,2019-02-20 19:14:11,9m - 46.658s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Approve Claim - Full - DA EFT,Chrome 72.0.3626.109,,2019-02-20 19:14:12,2019-02-20 19:23:59,9m - 47.601s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 19:14:12,2019-02-20 19:23:59,9m - 47.043s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Approve Claim - Full - DA Cheque,Chrome 72.0.3626.109,,2019-02-20 19:23:59,2019-02-20 19:33:46,9m - 47.009s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 19:24:00,2019-02-20 19:33:46,9m - 46.789s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Approve Claim - Fill Up UJP - by OB,Chrome 72.0.3626.109,This TC contains Multiple coverage but main aim of test is to verify the Approve Claim - Fill Up UJP,2019-02-20 19:33:47,2019-02-20 19:43:35,9m - 48.385s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 19:33:47,2019-02-20 19:43:34,9m - 47.219s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Approve Claim - Fill Up UJP - by Internal User,Chrome 72.0.3626.109,This TC contains Multiple coverage but main aim of test is to verify the Approve Claim - Fill Up UJP,2019-02-20 19:43:35,2019-02-20 19:53:22,9m - 46.753s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 19:43:35,2019-02-20 19:53:22,9m - 46.312s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Approve Application - RIA,Chrome 72.0.3626.109,,2019-02-20 19:53:22,2019-02-20 20:03:09,9m - 47.188s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 19:53:22,2019-02-20 20:03:09,9m - 46.488s,FAILED
+,,,,,,
+Test Cases/All TC/Arranged/0. Full Flow/Approve Application - JSA,Chrome 72.0.3626.109,,2019-02-20 20:03:09,2019-02-20 20:12:56,9m - 46.516s,FAILED
+"callTestCase(findTestCase(""All TC/Arranged/2. Segment/OTC_Submit Form 7_End to End - Cheque""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 20:03:10,2019-02-20 20:12:56,9m - 46.253s,FAILED
