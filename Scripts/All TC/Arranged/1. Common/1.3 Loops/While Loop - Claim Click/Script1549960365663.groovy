@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 //need Looper here
-WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.1 Getter/Getter Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common Activity - Getter/Getter Approval ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def tempCaseID
 

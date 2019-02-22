@@ -68,5 +68,6 @@ while (boolVerify.equals(true)) {
     counterF++
 }
 
+
 WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.2 Setter/Setter EOT'), [:], FailureHandling.STOP_ON_FAILURE)
 

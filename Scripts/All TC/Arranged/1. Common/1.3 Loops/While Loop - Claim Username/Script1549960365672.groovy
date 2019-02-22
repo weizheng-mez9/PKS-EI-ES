@@ -29,7 +29,7 @@ boolVerify = true
 counterF = 1
 
 while (boolVerify.equals(true)) {
-strXpathA = ('(id("mytable")/tbody[1]/tr['+counterF+']/td[4])')
+strXpathA = ('(id("mytable")/tbody[1]/tr['+counterF+']/td[5])')
 
 caseNum.addProperty('xpath', ConditionType.EQUALS, strXpathA, true)
 
