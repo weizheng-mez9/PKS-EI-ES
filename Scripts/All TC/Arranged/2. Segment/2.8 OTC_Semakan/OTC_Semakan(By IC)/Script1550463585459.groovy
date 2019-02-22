@@ -31,6 +31,7 @@ WebUI.click(findTestObject('ZhiHao/OTC_Semakan/OTC_Semakan(by IC)/Page_PERKESO/b
 
 GlobalVariable.UserName = WebUI.getText(findTestObject('ZhiHao/OTC_Semakan/OTC_Semakan(by IC)/Page_PERKESO/td_JHEIO3'))
 
+System.out.println(GlobalVariable.UserName)
 WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/1.2 Setter/Setter UserName'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/IC List Remover'), [:], FailureHandling.STOP_ON_FAILURE)

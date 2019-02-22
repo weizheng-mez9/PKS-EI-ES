@@ -206,7 +206,7 @@
       <guid>165148ae-a39e-494a-a9b5-7fb1eb67924a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All TC/Arranged/0. Full Flow/Approve Claim - RIA</testCaseId>
+      <testCaseId>Test Cases/All TC/Arranged/0. Full Flow/Approve Claim - RIA (CHQ)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1fc85769-aafe-4130-8059-c9f0ed01576a</guid>

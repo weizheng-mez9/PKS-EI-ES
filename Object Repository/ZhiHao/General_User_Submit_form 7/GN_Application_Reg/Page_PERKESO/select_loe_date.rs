@@ -4,6 +4,12 @@
    <name>select_loe_date</name>
    <tag></tag>
    <elementGuidId>eb59b24a-680c-4407-b42c-8c3cf53a6880</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and (text() = '1' or . = '1')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>11</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

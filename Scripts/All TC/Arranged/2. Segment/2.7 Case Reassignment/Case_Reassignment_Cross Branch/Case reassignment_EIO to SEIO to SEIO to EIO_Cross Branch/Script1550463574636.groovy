@@ -95,6 +95,8 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassignment_EIO to SEIO to SEIO to EIO_Cross Branch/Page_PERKESO/click_jhseio4perkeso.gov.my'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ZhiHao/Case_Reassignment_Cross Branch/Case reassignment_EIO to SEIO to SEIO to EIO_Cross Branch/Page_PERKESO/click_Log Out'))
 
 WebUI.delay(2)

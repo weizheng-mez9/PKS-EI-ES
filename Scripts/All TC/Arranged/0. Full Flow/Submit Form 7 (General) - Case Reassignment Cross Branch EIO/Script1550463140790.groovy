@@ -13,10 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/GN_Submit Form 7_End to End'), [:], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/GN_Submit Form 7_End to End'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.8 OTC_Semakan/OTC_Semakan(by Case ID)'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/IC List Remover'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.7 Case Reassignment/Case_Reassignment_Cross Branch/Case reassignment_EIO to SEIO to SEIO to EIO_Cross Branch'), 
     [:], FailureHandling.STOP_ON_FAILURE)

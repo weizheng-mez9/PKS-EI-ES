@@ -17,5 +17,7 @@ WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/OTC_Submit Form 7_En
 
 WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.2 Check Status/Check Status - Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/IC List Remover'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.5 Query/6.3 Cross Branch - SEIO'), [:], FailureHandling.STOP_ON_FAILURE)
 

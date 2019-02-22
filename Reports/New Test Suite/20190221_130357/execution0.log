@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-21T13:04:00</date>
+  <millis>1550725440693</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">New Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/New Test Suite</property>
+</record>
+<record>
+  <date>2019-02-21T13:04:00</date>
+  <millis>1550725440726</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Admin - Win7Test02</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Admin - Win7Test02</property>
+</record>
+<record>
+  <date>2019-02-21T13:04:00</date>
+  <millis>1550725440727</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-02-21T13:04:00</date>
+  <millis>1550725440728</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.20.3.72</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.20.3.72</property>
+</record>
+<record>
+  <date>2019-02-21T13:04:00</date>
+  <millis>1550725440730</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-02-21T13:04:01</date>
+  <millis>1550725441062</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/All TC/Arranged/0. Full Flow/Training/Decline/2 VO Search and Decline</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/All TC/Arranged/0. Full Flow/Training/Decline/2 VO Search and Decline</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/All TC/Arranged/0. Full Flow/Training/Decline/2 VO Search and Decline</property>
+  <property name="source">C:\\Users\\Admin\\Documents\\GitHub\\PKSKatalon\\PKS-EI-ES\\Test Cases\\All TC\\Arranged\\0. Full Flow\\Training\\Decline\\2 VO Search and Decline.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-21T13:04:01</date>
+  <millis>1550725441542</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;All TC/Arranged/3. Unit/ES/VO Login\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-21T13:04:01</date>
+  <millis>1550725441826</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/All TC/Arranged/3. Unit/ES/VO Login</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/All TC/Arranged/3. Unit/ES/VO Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/All TC/Arranged/3. Unit/ES/VO Login</property>
+  <property name="source">C:\\Users\\Admin\\Documents\\GitHub\\PKSKatalon\\PKS-EI-ES\\Test Cases\\All TC\\Arranged\\3. Unit\\ES\\VO Login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-21T13:04:02</date>
+  <millis>1550725442005</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-21T13:04:02</date>
+  <millis>1550725442336</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-21T13:04:02</date>
+  <millis>1550725442359</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;args&amp;apos;, &amp;apos;[--start-maximized]&amp;apos;]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-21T13:04:02</date>
+  <millis>1550725442390</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 2 seconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>

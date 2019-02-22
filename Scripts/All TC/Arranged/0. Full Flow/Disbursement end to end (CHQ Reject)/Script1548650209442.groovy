@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('All TC/Arranged/0. Full Flow/Approve Claim - RIA (CHQ)'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.6 Disbursement/DS - CHQ/DS - Pending Claim (CHQ)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.6 Disbursement/DSSU checking'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -27,5 +29,6 @@ WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.6 Disbursement/DSS
 
 WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.6 Disbursement/DS3'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.6 Disbursement/DS - CHQ/DS - Reject (CHQ Approved Claim)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.6 Disbursement/DS - CHQ/DS - Reject (CHQ Approved Claim)'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 

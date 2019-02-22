@@ -4,6 +4,12 @@
    <name>click_Log Out</name>
    <tag></tag>
    <elementGuidId>0db3acd9-d08b-4039-8d10-95191c7f3741</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'javascript:logoutFormSubmit()' and (text() = 'Log Keluar' or . = 'Log Keluar')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log Out</value>
+      <value>Log Keluar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

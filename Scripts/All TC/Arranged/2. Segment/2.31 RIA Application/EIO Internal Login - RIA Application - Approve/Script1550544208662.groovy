@@ -90,5 +90,5 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('KinJun/3.1 RIA Application/EIO Internal Login - RIA Application - Approve/Page_PERKESO/Log Out'))
 
-WebUI.callTestCase(findTestCase('2.0 Check Status/Check Status - Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All TC/Arranged/2. Segment/2.2 Check Status/Check Status - Case ID'), [:], FailureHandling.STOP_ON_FAILURE)
 

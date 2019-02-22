@@ -43,5 +43,3 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('KinJun/2.0 Check Status/Check Status - Case ID/Page_PERKESO/Log Out'))
 
-WebUI.callTestCase(findTestCase('All TC/Arranged/1. Common/IC List Remover'), [:], FailureHandling.STOP_ON_FAILURE)
-

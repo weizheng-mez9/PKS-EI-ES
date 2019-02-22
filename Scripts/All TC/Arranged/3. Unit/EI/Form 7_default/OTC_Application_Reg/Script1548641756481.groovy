@@ -12,6 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import java.util.Date as Date
+import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.openBrowser('')
 
@@ -57,7 +59,24 @@ WebUI.click(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERK
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/9.Tarikh kehilangan pkj'), '10/01/2019')
+Date TodayDate = new Date()
+
+//capture today's date
+SimpleDateFormat CurrentDateNoFilter = new SimpleDateFormat()
+
+
+
+//allow editing on date captured
+CurrentDateNoFilter.applyPattern('dd/MM/yyyy')
+
+
+
+//applying to show today's date
+String CurrentDate = CurrentDateNoFilter.format(TodayDate)
+System.out.println(CurrentDate)
+date=CurrentDate
+
+WebUI.setText(findTestObject('KeatMun/Form 7_default/OTC_Application_Reg/Page_PERKESO/9.Tarikh kehilangan pkj'), date)
 
 WebUI.delay(2)
 

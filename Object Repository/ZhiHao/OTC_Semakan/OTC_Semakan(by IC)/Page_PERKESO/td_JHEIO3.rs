@@ -4,6 +4,12 @@
    <name>td_JHEIO3</name>
    <tag></tag>
    <elementGuidId>f39875f3-9392-4f94-9292-852e573d94c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;applicationStatusTable&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;applicationStatusTable&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[6]</value>
+      <value>id(&quot;applicationStatusTable&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
